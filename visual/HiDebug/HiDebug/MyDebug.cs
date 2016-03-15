@@ -8,18 +8,21 @@ public sealed class MyDebug : MonoBehaviour
     private static bool isLogOnScreen = false;
     private static bool isLogOnConsole = false;
     private static bool isLogOnText = false;
+    private static bool isFpsOn = false;
     private static List<string> logOnScreenList = new List<string>();
     private static string logOnScreen;
     private static Vector2 scrollPosition;
+    private static MyDebug instance;
     private MyDebug() { }
-    public static void EnabelOnConsole(bool _isLogOnConsole)
+    public static void EnableOnConsole(bool _isLogOnConsole)
     {
         isLogOnConsole = _isLogOnConsole;
     }
-    public static void EnabelOnScreen(bool _isLogOnScreen)
+    public static void EnableOnScreen(bool _isLogOnScreen)
     {
         isLogOnConsole = isLogOnScreen = _isLogOnScreen;
-        new GameObject("MyDebug").AddComponent<MyDebug>();
+        if (instance == null)
+            instance = new GameObject("MyDebug").AddComponent<MyDebug>();
         Application.logMessageReceived += (string _log, string _stackTrace, LogType _type) =>
         {
             UpdateScrollPosition();
@@ -29,9 +32,15 @@ public sealed class MyDebug : MonoBehaviour
              UpdateScrollPosition();
          };
     }
-    public static void EnabelOnText(bool param)
+    public static void EnableOnText(bool param)
     {
         isLogOnConsole = isLogOnText = param;
+    }
+    public static void EnableFps(bool param)
+    {
+        isFpsOn = param;
+        if (instance == null)
+            instance = new GameObject("MyDebug").AddComponent<MyDebug>();
     }
     public static void Log(object _obj)
     {
@@ -71,9 +80,35 @@ public sealed class MyDebug : MonoBehaviour
     }
     void OnGUI()
     {
-        scrollPosition = GUILayout.BeginScrollView(scrollPosition, GUILayout.Width(Screen.width), GUILayout.Height(Screen.height));
-        GUILayout.Label(logOnScreen);
-        GUILayout.EndScrollView();
+        if (isLogOnScreen)
+        {
+            scrollPosition = GUILayout.BeginScrollView(scrollPosition, GUILayout.Width(Screen.width), GUILayout.Height(Screen.height));
+            GUILayout.Label(logOnScreen);
+            GUILayout.EndScrollView();
+        }
+        if (isFpsOn)
+        {
+            GUI.color = Color.red;
+            GUI.Label(new Rect(0, 0, Screen.width * 0.3f, Screen.height * 0.1f), fps.ToString());
+        }
+    }
+    private float count;//总次数
+    private float lastTime;//记录上次的时间
+    private float fps;
+    private int i;//计数器
+    void Update()
+    {
+        if (isFpsOn)
+        {
+            i++;
+            count += Time.timeScale / Time.deltaTime;
+            if (Time.realtimeSinceStartup > Time.timeScale + lastTime)
+            {
+                fps = count / i;
+                count = i = 0;
+                lastTime = Time.realtimeSinceStartup;
+            }
+        }
     }
     static void UpdateScrollPosition()
     {
