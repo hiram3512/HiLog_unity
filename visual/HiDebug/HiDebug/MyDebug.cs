@@ -4,6 +4,7 @@ using UnityEngine;
 using System.IO;
 public sealed class MyDebug : MonoBehaviour
 {
+    public static int fontSize = 15;
     public static int itemCountOnScreen = 100;//拖拽区域包含多少条log信息
     private static bool isLogOnScreen = false;
     private static bool isLogOnConsole = false;
@@ -83,13 +84,17 @@ public sealed class MyDebug : MonoBehaviour
         if (isLogOnScreen)
         {
             scrollPosition = GUILayout.BeginScrollView(scrollPosition, GUILayout.Width(Screen.width), GUILayout.Height(Screen.height));
-            GUILayout.Label(logOnScreen);
+            GUIStyle tempGuiStyle = new GUIStyle();
+            tempGuiStyle.fontSize = fontSize;
+            GUILayout.Label(logOnScreen, tempGuiStyle);
             GUILayout.EndScrollView();
         }
         if (isFpsOn)
         {
-            GUI.color = Color.red;
-            GUI.Label(new Rect(0, 0, Screen.width * 0.3f, Screen.height * 0.1f), fps.ToString());
+            GUIStyle tempGuiStyle = new GUIStyle();
+            tempGuiStyle.fontSize = fontSize;
+            tempGuiStyle.normal.textColor = Color.red;
+            GUI.Label(new Rect(0, 0, Screen.width * 0.3f, Screen.height * 0.1f), fps.ToString(), tempGuiStyle);
         }
     }
     private float count;//总次数
