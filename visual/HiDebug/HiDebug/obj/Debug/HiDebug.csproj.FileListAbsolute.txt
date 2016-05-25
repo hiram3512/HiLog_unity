@@ -15,4 +15,3 @@ D:\MyGit\github\HiDebug_unity\visual\HiDebug\HiDebug\bin\Debug\HiDebug.pdb
 D:\MyGit\github\HiDebug_unity\visual\HiDebug\HiDebug\bin\Debug\UnityEngine.dll
 D:\MyGit\github\HiDebug_unity\visual\HiDebug\HiDebug\obj\Debug\HiDebug.dll
 D:\MyGit\github\HiDebug_unity\visual\HiDebug\HiDebug\obj\Debug\HiDebug.pdb
-D:\MyGit\github\HiDebug_unity\visual\HiDebug\HiDebug\obj\Debug\HiDebug.csprojResolveAssemblyReference.cache

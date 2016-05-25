@@ -47,7 +47,8 @@ public sealed class MyDebug : MonoBehaviour
     {
         if (isLogOnConsole)
         {
-            string log = string.Format(GetTime(), "Log", _obj.ToString());
+            string log = string.Format(GetTime(), _obj.ToString());
+            log = "<color=white>" + log + "</color>";
             Debug.Log(log);
             if (isLogOnScreen)
                 OnScreen(log);
@@ -59,7 +60,8 @@ public sealed class MyDebug : MonoBehaviour
     {
         if (isLogOnConsole)
         {
-            string log = string.Format(GetTime(), "Warning", _obj.ToString());
+            string log = string.Format(GetTime(), _obj.ToString());
+            log = "<color=yellow>" + log + "</color>";
             Debug.LogWarning(log);
             if (isLogOnScreen)
                 OnScreen(log);
@@ -71,7 +73,8 @@ public sealed class MyDebug : MonoBehaviour
     {
         if (isLogOnConsole)
         {
-            string log = string.Format(GetTime(), "Error", _obj.ToString());
+            string log = string.Format(GetTime(), _obj.ToString());
+            log = "<color=red>" + log + "</color>";
             Debug.LogError(log);
             if (isLogOnScreen)
                 OnScreen(log);
@@ -131,7 +134,7 @@ public sealed class MyDebug : MonoBehaviour
     private static string GetTime()
     {
         DateTime time = DateTime.Now;
-        return time.ToString("yyyy.MM.dd HH:mm:ss") + "[{0}]: {1}";
+        return time.ToString("yyyy.MM.dd HH:mm:ss") + ": {0}";
     }
     private static void WriteLog(string param)
     {

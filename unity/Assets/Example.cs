@@ -16,7 +16,12 @@ public class Example : MonoBehaviour
         if (i < 500)
         {
             i++;
-            MyDebug.Log(i);
+            if (i % 10 == 0)
+                MyDebug.LogWarning(i);
+            else if (i % 5 == 0)
+                MyDebug.LogError(i);
+            else
+                MyDebug.Log(i);
         }
     }
 }
