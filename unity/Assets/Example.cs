@@ -3,12 +3,12 @@ public class Example : MonoBehaviour
 {
     void Start()
     {
-        MyDebug.fontSize = 20;
+        Debuger.fontSize = 20;
 
         //MyDebug.EnableOnConsole(false); 
-        MyDebug.EnableOnScreen(true);
-        MyDebug.EnableOnText(true);//写入到text文件中(persistent目录下)
-        MyDebug.EnableFps(true);
+        Debuger.EnableOnScreen(true);
+        Debuger.EnableOnText(true);//写入到text文件中(persistent目录下)
+        Debuger.EnableFps(true);
     }
     int i = 0;
     void Update()
@@ -16,12 +16,13 @@ public class Example : MonoBehaviour
         if (i < 500)
         {
             i++;
+            string tempLog = "this is a log: " + i;
             if (i % 10 == 0)
-                MyDebug.LogWarning(i);
+                Debuger.LogWarning(tempLog);
             else if (i % 5 == 0)
-                MyDebug.LogError(i);
+                Debuger.LogError(tempLog);
             else
-                MyDebug.Log(i);
+                Debuger.Log(tempLog);
         }
     }
 }
