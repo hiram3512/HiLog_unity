@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
-public sealed class MyDebug : MonoBehaviour
+public sealed class Debuger : MonoBehaviour
 {
     public static int fontSize = 15;
     public static int itemCountOnScreen = 100;//拖拽区域包含多少条log信息
@@ -13,8 +13,8 @@ public sealed class MyDebug : MonoBehaviour
     private static List<string> logOnScreenList = new List<string>();
     private static string logOnScreen;
     private static Vector2 scrollPosition;
-    private static MyDebug instance;
-    private MyDebug() { }
+    private static Debuger instance;
+    private Debuger() { }
     public static void EnableOnConsole(bool _isLogOnConsole)
     {
         isLogOnConsole = _isLogOnConsole;
@@ -23,7 +23,7 @@ public sealed class MyDebug : MonoBehaviour
     {
         isLogOnConsole = isLogOnScreen = _isLogOnScreen;
         if (instance == null)
-            instance = new GameObject("MyDebug").AddComponent<MyDebug>();
+            instance = new GameObject("Debuger").AddComponent<Debuger>();
         Application.logMessageReceived += (string _log, string _stackTrace, LogType _type) =>
         {
             UpdateScrollPosition();
@@ -41,7 +41,7 @@ public sealed class MyDebug : MonoBehaviour
     {
         isFpsOn = param;
         if (instance == null)
-            instance = new GameObject("MyDebug").AddComponent<MyDebug>();
+            instance = new GameObject("Debuger").AddComponent<Debuger>();
     }
     public static void Log(object _obj)
     {
@@ -138,7 +138,7 @@ public sealed class MyDebug : MonoBehaviour
     }
     private static void WriteLog(string param)
     {
-        string path = Application.persistentDataPath + "/MyDebug.txt";
+        string path = Application.persistentDataPath + "/Debuger.txt";
         StreamWriter sw = File.AppendText(path);
         sw.WriteLine(param);
         sw.Close();
