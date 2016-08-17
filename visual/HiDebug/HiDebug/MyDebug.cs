@@ -23,7 +23,11 @@ public sealed class Debuger : MonoBehaviour
     {
         isLogOnConsole = isLogOnScreen = _isLogOnScreen;
         if (instance == null)
-            instance = new GameObject("Debuger").AddComponent<Debuger>();
+        {
+            var tempGo = new GameObject("Debuger");
+            DontDestroyOnLoad(tempGo);
+            instance = tempGo.AddComponent<Debuger>();
+        }
         Application.logMessageReceived += (string _log, string _stackTrace, LogType _type) =>
         {
             UpdateScrollPosition();
