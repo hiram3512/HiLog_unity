@@ -14,7 +14,6 @@
 [![](https://thumbnail0.baidupcs.com/thumbnail/096cc805b324b2f852ca821daced0005?fid=506779508-250528-634538772389583&time=1494291600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-tCehvoAlxj552fHe0iVFYNdPMFc%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2978299872572991671&dp-callid=0&size=c710_u400&quality=100)](https://thumbnail0.baidupcs.com/thumbnail/096cc805b324b2f852ca821daced0005?fid=506779508-250528-634538772389583&time=1494291600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-tCehvoAlxj552fHe0iVFYNdPMFc%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2978299872572991671&dp-callid=0&size=c710_u400&quality=100)
 
 > **Tip:**
-> - 所有的Log日志都会附带时间戳(控制台,屏幕,本地文本文件)
-> - 可以修改屏幕上Log日志的文字大小(包括显示的FPS字体大小)
+> - 可以修改屏幕上Log日志的文字大小及颜色(包括显示的FPS字体大小)
 
 support: hiramtan@live.com
