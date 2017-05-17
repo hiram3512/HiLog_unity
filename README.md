@@ -11,7 +11,7 @@
 
 [![](https://thumbnail0.baidupcs.com/thumbnail/da91dd57f2cc1f8b742093eab224313e?fid=506779508-250528-786500552375264&time=1494291600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-vsQFbEJ7J6lso0MINuaFDLIha2g%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2978275965688712209&dp-callid=0&size=c710_u400&quality=100)](https://thumbnail0.baidupcs.com/thumbnail/da91dd57f2cc1f8b742093eab224313e?fid=506779508-250528-786500552375264&time=1494291600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-vsQFbEJ7J6lso0MINuaFDLIha2g%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2978275965688712209&dp-callid=0&size=c710_u400&quality=100)
 
-[![](https://pan.baidu.com/s/1nuGTDWl](https://pan.baidu.com/s/1nuGTDWl)
+[![](https://pan.baidu.com/s/1nuGTDWl)](https://pan.baidu.com/s/1nuGTDWl)
 
 > **Tip:**
 > - 可以修改屏幕上Log日志的文字大小及颜色(包括显示的FPS字体大小)
