@@ -9,9 +9,9 @@
 > - 是否将日志写入本地文本文件,方便查找日志(会生成在每个平台的可读写目录下: persistent文件夹)
 > - 是否显示当前帧率(FPS)
 
-[![](https://thumbnail0.baidupcs.com/thumbnail/096cc805b324b2f852ca821daced0005?fid=506779508-250528-634538772389583&time=1495008000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-AoB79tCSNBlYXtFpg3Qfo7oiCGc%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=3170151341257947658&dp-callid=0&size=c710_u400&quality=100)](https://thumbnail0.baidupcs.com/thumbnail/096cc805b324b2f852ca821daced0005?fid=506779508-250528-634538772389583&time=1495008000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-AoB79tCSNBlYXtFpg3Qfo7oiCGc%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=3170151341257947658&dp-callid=0&size=c710_u400&quality=100)
+[![](https://www.jianguoyun.com/c/tblv2/COmtGRIg0UXV-CO0p2o5_-ZrWVD-aw9rHFDcsa7xXlgArtI7vhg/MsAwYrQ4HQI/l)](https://www.jianguoyun.com/c/tblv2/COmtGRIg0UXV-CO0p2o5_-ZrWVD-aw9rHFDcsa7xXlgArtI7vhg/MsAwYrQ4HQI/l)
 
-[![](https://thumbnail0.baidupcs.com/thumbnail/da91dd57f2cc1f8b742093eab224313e?fid=506779508-250528-786500552375264&time=1495008000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-zSLcoHTM0SKF2S%2B1lIF%2FDMrN89I%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=3170141544214941839&dp-callid=0&size=c710_u400&quality=100)](https://thumbnail0.baidupcs.com/thumbnail/da91dd57f2cc1f8b742093eab224313e?fid=506779508-250528-786500552375264&time=1495008000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-zSLcoHTM0SKF2S%2B1lIF%2FDMrN89I%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=3170141544214941839&dp-callid=0&size=c710_u400&quality=100)
+[![](https://www.jianguoyun.com/c/tblv2/COmtGRIgkZi0RJGyvqmPTEMqZvhXPjKvLx_UwRg_HqPVU2NzbuM/FrS1IoYFcF4/l)](https://www.jianguoyun.com/c/tblv2/COmtGRIgkZi0RJGyvqmPTEMqZvhXPjKvLx_UwRg_HqPVU2NzbuM/FrS1IoYFcF4/l)
 
 > **Tip:**
 > - 可以修改屏幕上Log日志的文字大小及颜色(包括显示的FPS字体大小)
