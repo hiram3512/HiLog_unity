@@ -1,6 +1,5 @@
 #HiDebug_unity
 ----------
-QQ群：83596104
 
 #### 功能说明
 > - 兼容所有平台（编辑器，pc，Android，iOS，WP..）
