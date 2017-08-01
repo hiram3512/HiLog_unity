@@ -10,9 +10,9 @@
 > - 是否将日志写入本地文本文件,方便查找日志(会生成在每个平台的可读写目录下: persistent文件夹)
 > - 是否显示当前帧率(FPS)
 
-[![](https://www.jianguoyun.com/c/tblv2/COmtGRIg0UXV-CO0p2o5_-ZrWVD-aw9rHFDcsa7xXlgArtI7vhg/MsAwYrQ4HQI/l)](https://www.jianguoyun.com/c/tblv2/COmtGRIg0UXV-CO0p2o5_-ZrWVD-aw9rHFDcsa7xXlgArtI7vhg/MsAwYrQ4HQI/l)
+[![](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606212804163.png?ssl=1&w=450)](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606212804163.png?ssl=1&w=450)
 
-[![](https://www.jianguoyun.com/c/tblv2/COmtGRIgkZi0RJGyvqmPTEMqZvhXPjKvLx_UwRg_HqPVU2NzbuM/FrS1IoYFcF4/l)](https://www.jianguoyun.com/c/tblv2/COmtGRIgkZi0RJGyvqmPTEMqZvhXPjKvLx_UwRg_HqPVU2NzbuM/FrS1IoYFcF4/l)
+[![](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606213032591.png?ssl=1&w=450)](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606213032591.png?ssl=1&w=450)
 
 > **Tip:**
 > - 可以修改屏幕上Log日志的文字大小及颜色(包括显示的FPS字体大小)
