@@ -2,163 +2,183 @@
 // Description:日志
 // Author: hiramtan@live.com
 //*********************************************************************
+
 using System;
 using System.Collections.Generic;
-using UnityEngine;
 using System.IO;
+using UnityEngine;
+
 public sealed class Debuger : MonoBehaviour
 {
     /// <summary>
-    /// 显示在屏幕上的字体大小
+    ///     显示在屏幕上的字体大小
     /// </summary>
-    public static int fontSize = 15;
-    /// <summary>
-    /// 显示在屏幕上多少列日志
-    /// </summary>
-    public static int itemCountOnScreen = 100;
+    public static int FontSize = 15;
 
-    private static bool isLogOnScreen = false;
-    private static bool isLogOnConsole = false;
-    private static bool isLogOnText = false;
-    private static bool isFpsOn = false;
-    private static List<string> logOnScreenList = new List<string>();
-    private static string logOnScreen;
-    private static Vector2 scrollPosition;
-    private static Debuger instance;
-    private Debuger() { }
-    public static void EnableOnConsole(bool _isLogOnConsole)
+    /// <summary>
+    ///     显示在屏幕上多少列日志
+    /// </summary>
+    public static int ItemCountOnScreen = 100;
+
+    private static bool _isLogOnScreen;
+    private static bool _isLogOnConsole;
+    private static bool _isLogOnText;
+    private static bool _isFpsOn;
+    private static readonly List<string> _logOnScreenList = new List<string>();
+    private static string _logOnScreen;
+    private static Vector2 _scrollPosition;
+    private static Debuger _instance;
+    private float _count; //总次数
+    private float _fps;
+    private int _i; //计数器
+    private float _lastTime; //记录上次的时间
+
+    private Debuger()
     {
-        isLogOnConsole = _isLogOnConsole;
     }
-    public static void EnableOnScreen(bool _isLogOnScreen)
+
+    public static bool EnableOnConsole(bool isLogOnConsole)
     {
-        if (_isLogOnScreen)
+        _isLogOnConsole = isLogOnConsole;
+        return _isLogOnConsole;
+    }
+
+    public static bool EnableOnScreen(bool isLogOnScreen)
+    {
+        if (isLogOnScreen)
             EnableOnConsole(true);
-        isLogOnScreen = _isLogOnScreen;
-        if (instance == null)
+        _isLogOnScreen = isLogOnScreen;
+        if (_instance == null)
         {
             var tempGo = new GameObject("Debuger");
             DontDestroyOnLoad(tempGo);
-            instance = tempGo.AddComponent<Debuger>();
+            _instance = tempGo.AddComponent<Debuger>();
         }
-        Application.logMessageReceived += (string _log, string _stackTrace, LogType _type) =>
-        {
-            UpdateScrollPosition();
-        };
-        Application.logMessageReceivedThreaded += (string _log, string _stackTrace, LogType _type) =>
-         {
-             UpdateScrollPosition();
-         };
+        Application.logMessageReceived += (log, stackTrace, type) => { UpdateScrollPosition(); };
+        Application.logMessageReceivedThreaded += (log, stackTrace, type) => { UpdateScrollPosition(); };
+        return isLogOnScreen;
     }
-    public static void EnableOnText(bool param)
+
+    public static bool EnableOnText(bool param)
     {
         if (param)
             EnableOnConsole(true);
-        isLogOnText = param;
+        _isLogOnText = param;
+        return _isLogOnText;
     }
-    public static void EnableFps(bool param)
+
+    public static bool EnableFps(bool param)
     {
-        isFpsOn = param;
-        if (instance == null)
-            instance = new GameObject("Debuger").AddComponent<Debuger>();
+        _isFpsOn = param;
+        if (_instance == null)
+            _instance = new GameObject("Debuger").AddComponent<Debuger>();
+        return _isFpsOn;
     }
-    public static void Log(object _obj)
+
+    public static void Log(object obj)
     {
-        if (isLogOnConsole)
+        if (_isLogOnConsole)
         {
-            string log = string.Format(GetTime(), _obj.ToString());
+            var log = string.Format(GetTime(), obj);
             log = "<color=white>" + log + "</color>";
             Debug.Log(log);
-            if (isLogOnScreen)
+            if (_isLogOnScreen)
                 OnScreen(log);
-            if (isLogOnText)
+            if (_isLogOnText)
                 WriteLog(log);
         }
     }
-    public static void LogWarning(object _obj)
+
+    public static void LogWarning(object obj)
     {
-        if (isLogOnConsole)
+        if (_isLogOnConsole)
         {
-            string log = string.Format(GetTime(), _obj.ToString());
+            var log = string.Format(GetTime(), obj);
             log = "<color=yellow>" + log + "</color>";
             Debug.LogWarning(log);
-            if (isLogOnScreen)
+            if (_isLogOnScreen)
                 OnScreen(log);
-            if (isLogOnText)
+            if (_isLogOnText)
                 WriteLog(log);
         }
     }
-    public static void LogError(object _obj)
+
+    public static void LogError(object obj)
     {
-        if (isLogOnConsole)
+        if (_isLogOnConsole)
         {
-            string log = string.Format(GetTime(), _obj.ToString());
+            var log = string.Format(GetTime(), obj);
             log = "<color=red>" + log + "</color>";
             Debug.LogError(log);
-            if (isLogOnScreen)
+            if (_isLogOnScreen)
                 OnScreen(log);
-            if (isLogOnText)
+            if (_isLogOnText)
                 WriteLog(log);
         }
     }
-    void OnGUI()
+
+    private void OnGUI()
     {
-        if (isLogOnScreen)
+        if (_isLogOnScreen)
         {
-            scrollPosition = GUILayout.BeginScrollView(scrollPosition, GUILayout.Width(Screen.width), GUILayout.Height(Screen.height));
-            GUIStyle tempGuiStyle = new GUIStyle();
-            tempGuiStyle.fontSize = fontSize;
-            GUILayout.Label(logOnScreen, tempGuiStyle);
+            _scrollPosition = GUILayout.BeginScrollView(_scrollPosition, GUILayout.Width(Screen.width),
+                GUILayout.Height(Screen.height));
+            var tempGuiStyle = new GUIStyle();
+            tempGuiStyle.fontSize = FontSize;
+            GUILayout.Label(_logOnScreen, tempGuiStyle);
             GUILayout.EndScrollView();
         }
-        if (isFpsOn)
+        if (_isFpsOn)
         {
-            GUIStyle tempGuiStyle = new GUIStyle();
-            tempGuiStyle.fontSize = fontSize;
+            var tempGuiStyle = new GUIStyle();
+            tempGuiStyle.fontSize = FontSize;
             tempGuiStyle.normal.textColor = Color.red;
-            GUI.Label(new Rect(0, 0, Screen.width * 0.3f, Screen.height * 0.1f), fps.ToString(), tempGuiStyle);
+            GUI.Label(new Rect(0, 0, Screen.width * 0.3f, Screen.height * 0.1f), _fps.ToString(), tempGuiStyle);
         }
     }
-    private float count;//总次数
-    private float lastTime;//记录上次的时间
-    private float fps;
-    private int i;//计数器
-    void Update()
+
+    private void Update()
     {
-        if (isFpsOn)
+        if (_isFpsOn)
         {
-            i++;
-            count += Time.timeScale / Time.deltaTime;
-            if (Time.realtimeSinceStartup > Time.timeScale + lastTime)
+            _i++;
+            _count += Time.timeScale / Time.deltaTime;
+            if (Time.realtimeSinceStartup > Time.timeScale + _lastTime)
             {
-                fps = count / i;
-                count = i = 0;
-                lastTime = Time.realtimeSinceStartup;
+                _fps = _count / _i;
+                _count = _i = 0;
+                _lastTime = Time.realtimeSinceStartup;
             }
         }
     }
-    static void UpdateScrollPosition()
+
+    private static void UpdateScrollPosition()
     {
-        scrollPosition = new Vector2(scrollPosition.x, scrollPosition.y + logOnScreenList.Count);
+        _scrollPosition = new Vector2(_scrollPosition.x, _scrollPosition.y + _logOnScreenList.Count);
     }
-    private static void OnScreen(string _log)
+
+    private static void OnScreen(string log)
     {
-        logOnScreenList.Add(_log);
-        if (logOnScreenList.Count > itemCountOnScreen)
-            logOnScreenList.RemoveAt(0);
-        logOnScreen = string.Empty;
-        foreach (string _s in logOnScreenList)
-            logOnScreen = string.IsNullOrEmpty(logOnScreen) ? logOnScreen = _s : logOnScreen = logOnScreen + "\n" + _s;//第一行不用换行
+        _logOnScreenList.Add(log);
+        if (_logOnScreenList.Count > ItemCountOnScreen)
+            _logOnScreenList.RemoveAt(0);
+        _logOnScreen = string.Empty;
+        foreach (var s in _logOnScreenList)
+            _logOnScreen = string.IsNullOrEmpty(_logOnScreen)
+                ? _logOnScreen = s
+                : _logOnScreen = _logOnScreen + "\n" + s; //第一行不用换行
     }
+
     private static string GetTime()
     {
-        DateTime time = DateTime.Now;
+        var time = DateTime.Now;
         return time.ToString("yyyy.MM.dd HH:mm:ss") + ": {0}";
     }
+
     private static void WriteLog(string param)
     {
-        string path = Application.persistentDataPath + "/Debuger.txt";
-        StreamWriter sw = File.AppendText(path);
+        var path = Application.persistentDataPath + "/Debuger.txt";
+        var sw = File.AppendText(path);
         sw.WriteLine(param);
         sw.Close();
     }
