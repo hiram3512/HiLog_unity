@@ -37,17 +37,20 @@ public sealed class Debuger : MonoBehaviour
     {
     }
 
-    public static bool EnableOnConsole(bool isLogOnConsole)
+    public static void EnableOnConsole(bool isOn)
     {
-        _isLogOnConsole = isLogOnConsole;
-        return _isLogOnConsole;
+        if (_isLogOnConsole == isOn)
+            return;
+        _isLogOnConsole = isOn;
     }
 
-    public static bool EnableOnScreen(bool isLogOnScreen)
+    public static void EnableOnScreen(bool isOn)
     {
-        if (isLogOnScreen)
+        if (_isLogOnScreen == isOn)
+            return;
+        _isLogOnScreen = isOn;
+        if (_isLogOnScreen)
             EnableOnConsole(true);
-        _isLogOnScreen = isLogOnScreen;
         if (_instance == null)
         {
             var tempGo = new GameObject("Debuger");
@@ -56,23 +59,24 @@ public sealed class Debuger : MonoBehaviour
         }
         Application.logMessageReceived += (log, stackTrace, type) => { UpdateScrollPosition(); };
         Application.logMessageReceivedThreaded += (log, stackTrace, type) => { UpdateScrollPosition(); };
-        return isLogOnScreen;
     }
 
-    public static bool EnableOnText(bool param)
+    public static void EnableOnText(bool isOn)
     {
-        if (param)
+        if (_isLogOnText == isOn)
+            return;
+        _isLogOnText = isOn;
+        if (_isLogOnText)
             EnableOnConsole(true);
-        _isLogOnText = param;
-        return _isLogOnText;
     }
 
-    public static bool EnableFps(bool param)
+    public static void EnableFps(bool isOn)
     {
-        _isFpsOn = param;
+        if (_isFpsOn == isOn)
+            return;
+        _isFpsOn = isOn;
         if (_instance == null)
             _instance = new GameObject("Debuger").AddComponent<Debuger>();
-        return _isFpsOn;
     }
 
     public static void Log(object obj)
@@ -150,6 +154,7 @@ public sealed class Debuger : MonoBehaviour
                 _lastTime = Time.realtimeSinceStartup;
             }
         }
+        //UpdateTouchQueue();
     }
 
     private static void UpdateScrollPosition()
@@ -182,4 +187,35 @@ public sealed class Debuger : MonoBehaviour
         sw.WriteLine(param);
         sw.Close();
     }
+
+    //private static readonly List<int> _touchCountList = new List<int>();
+    //private static bool _isTouchSetLogOn;
+    //static void UpdateTouchQueue()
+    //{
+    //    int count = Input.touchCount;
+    //    _touchCountList.Add(count);
+    //    while (_touchCountList.Count > 3)
+    //    {
+    //        _touchCountList.RemoveAt(0);
+    //    }
+    //    if (_touchCountList.Count == 3)
+    //    {
+    //        var one = _touchCountList[0];
+    //        var two = _touchCountList[1];
+    //        var three = _touchCountList[2];
+    //        if (one == 1 && two == 1 && three == 1)
+    //        {
+    //            TouchSetLog();
+    //        }
+    //    }
+    //}
+
+    //static void TouchSetLog()
+    //{
+    //    _isTouchSetLogOn = !_isTouchSetLogOn;
+    //    EnableOnConsole(_isTouchSetLogOn);
+    //    EnableOnScreen(_isTouchSetLogOn);
+    //    EnableOnText(_isTouchSetLogOn);
+    //    EnableFps(_isTouchSetLogOn);
+    //}
 }
