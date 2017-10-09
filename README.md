@@ -10,6 +10,15 @@
 > - 是否将日志写入本地文本文件,方便查找日志(会生成在每个平台的可读写目录下: persistent文件夹)
 > - 是否显示当前帧率(FPS)
 
+
+只需要将HiDebug.dll复制到自己的工程中,开启方法也非常简单(具体参考示例项目):
+
+        Debuger.EnableOnConsole(false); 
+        //Debuger.EnableOnScreen(true);
+        //Debuger.EnableOnText(true);//写入到text文件中(persistent目录下)
+        Debuger.EnableFps(true);
+        
+
 [![](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606212804163.png?ssl=1&w=450)](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606212804163.png?ssl=1&w=450)
 
 [![](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606213032591.png?ssl=1&w=450)](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606213032591.png?ssl=1&w=450)
