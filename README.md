@@ -10,8 +10,9 @@
 > - 是否将日志写入本地文本文件,方便查找日志(会生成在每个平台的可读写目录下: persistent文件夹)
 > - 是否显示当前帧率(FPS)
 
-
-只需要将HiDebug.dll复制到自己的工程中,开启方法也非常简单(具体参考示例项目):
+##### 使用方法
+从[下载页](https://github.com/hiramtan/HiDebug_unity/releases)下载unity包导入到自己的项目中.
+开启方法也非常简单(具体参考示例项目):
 
         Debuger.EnableOnConsole(false); 
         //Debuger.EnableOnScreen(true);
