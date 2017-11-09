@@ -11,7 +11,7 @@
 > - 是否显示当前帧率(FPS)
 
 ##### 使用方法
-从[下载页](https://github.com/hiramtan/HiDebug_unity/releases)下载unity包导入到自己的项目中.
+从[发布页](https://github.com/hiramtan/HiDebug_unity/releases)下载unitypackage导入到自己的项目中.
 开启方法也非常简单(具体参考示例项目):
 
         Debuger.EnableOnConsole(false); 
