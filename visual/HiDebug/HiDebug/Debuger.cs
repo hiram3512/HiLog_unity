@@ -154,7 +154,6 @@ public sealed class Debuger : MonoBehaviour
                 _lastTime = Time.realtimeSinceStartup;
             }
         }
-        //UpdateTouchQueue();
     }
 
     private static void UpdateScrollPosition()
@@ -187,35 +186,4 @@ public sealed class Debuger : MonoBehaviour
         sw.WriteLine(param);
         sw.Close();
     }
-
-    //private static readonly List<int> _touchCountList = new List<int>();
-    //private static bool _isTouchSetLogOn;
-    //static void UpdateTouchQueue()
-    //{
-    //    int count = Input.touchCount;
-    //    _touchCountList.Add(count);
-    //    while (_touchCountList.Count > 3)
-    //    {
-    //        _touchCountList.RemoveAt(0);
-    //    }
-    //    if (_touchCountList.Count == 3)
-    //    {
-    //        var one = _touchCountList[0];
-    //        var two = _touchCountList[1];
-    //        var three = _touchCountList[2];
-    //        if (one == 1 && two == 1 && three == 1)
-    //        {
-    //            TouchSetLog();
-    //        }
-    //    }
-    //}
-
-    //static void TouchSetLog()
-    //{
-    //    _isTouchSetLogOn = !_isTouchSetLogOn;
-    //    EnableOnConsole(_isTouchSetLogOn);
-    //    EnableOnScreen(_isTouchSetLogOn);
-    //    EnableOnText(_isTouchSetLogOn);
-    //    EnableFps(_isTouchSetLogOn);
-    //}
 }
