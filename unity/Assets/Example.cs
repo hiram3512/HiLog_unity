@@ -22,21 +22,20 @@ public class Example : MonoBehaviour
         Debuger.EnableOnScreen(true);//显示日志到屏幕(真机同样可以)
         Debuger.EnableOnText(true);//写入到text文件中(persistent目录下,方便崩溃时查看日志)
         Debuger.EnableFps(true);//显示帧率
+
+        Log();
     }
     void Update()
     {
+    }
+    void Log()
+    {
         for (int i = 0; i < 5; i++)
-        {
             Debuger.Log("log: " + i);
-        }
         for (int i = 0; i < 5; i++)
-        {
             Debuger.LogWarning("warning: " + i);
-        }
         for (int i = 0; i < 5; i++)
-        {
             Debuger.LogError("error: " + i);
-        }
     }
 
     void OtherSetting()
