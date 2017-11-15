@@ -4,7 +4,7 @@
 
 
 ### How to use
- You can download unity package from here: [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/hiramtan/HiDebug_unity/releases)
+ 可以从此链接下载最新的unity package导入到自己的项目中: [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/hiramtan/HiDebug_unity/releases)
 
 
 ### Features
