@@ -9,7 +9,7 @@
 -------
 
 ### Features
-
+---------
 >- Support multiple platform(unity editor, exe, Android, iOS, WP...).
 >- Enable or disable logs outputting just in one time.
 >- Whether enable logs on unity console.
@@ -17,6 +17,29 @@
 >- Whether enable write logs into a text(default path is in persistent folder)
 >- Adding data and time append to you logs.
 >- Whether display FPS or not.
+
+#### Example
+```csharp
+void Start()
+    {
+        Debuger.EnableOnConsole(true); //disable on console
+        Debuger.EnableOnScreen(true);//disable on screen
+        Debuger.EnableOnText(true);//write in text(persistent folder)
+        Debuger.EnableFps(true);//display fps
+
+        Log();
+    }
+   void Log()
+    {
+        for (int i = 0; i < 5; i++)
+            Debuger.Log("log: " + i);
+        for (int i = 0; i < 5; i++)
+            Debuger.LogWarning("warning: " + i);
+        for (int i = 0; i < 5; i++)
+            Debuger.LogError("error: " + i);
+    }
+    ```
+
 
 #### 功能说明
 > - 兼容所有平台（编辑器，pc，Android，iOS，WP..）
