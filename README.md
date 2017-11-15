@@ -45,7 +45,15 @@ void Start()
 [![](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606213032591.png?ssl=1&w=450)](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606213032591.png?ssl=1&w=450)
 
 > **Tip:**
-> - 可以修改屏幕上Log日志的文字大小及颜色(包括显示的FPS字体大小)
+>- You can change font size display on screen.
+>- You can set how many logs display on screen.
+
+```csharp
+        Debuger.FontSize = 20;
+        Debuger.ItemCountOnScreen = 100;
+```
+
 
 support: hiramtan@live.com
+
 qq群:83596104
