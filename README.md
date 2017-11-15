@@ -1,5 +1,13 @@
 #HiDebug_unity
-----------
+
+[中文说明](https://github.com/hiramtan/HiDebug_unity/releases)
+-------------
+
+#### How to use
+
+ you can download unity package from here: [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/hiramtan/HiDebug_unity/releases)
+
+
 
 #### 功能说明
 > - 兼容所有平台（编辑器，pc，Android，iOS，WP..）
