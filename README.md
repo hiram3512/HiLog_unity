@@ -38,7 +38,7 @@ void Start()
         for (int i = 0; i < 5; i++)
             Debuger.LogError("error: " + i);
     }
-    ```
+```
 
 
 #### 功能说明
