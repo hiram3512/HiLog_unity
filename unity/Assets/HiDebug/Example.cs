@@ -18,17 +18,14 @@ public class Example : MonoBehaviour
 {
     void Start()
     {
-        Debuger.EnableOnConsole(true); //unity控制台显示日志(添加时间戳)
-        Debuger.EnableOnScreen(true);//显示日志到屏幕(真机同样可以)
-        Debuger.EnableOnText(true);//写入到text文件中(persistent目录下,方便崩溃时查看日志)
-        Debuger.EnableFps(true);//显示帧率
+        Debuger.EnableOnConsole(true); //disable on console
+        Debuger.EnableOnScreen(true);//disable on screen
+        Debuger.EnableOnText(true);//write in text(persistent folder)
+        Debuger.EnableFps(true);//display fps
 
         Log();
     }
-    void Update()
-    {
-    }
-    void Log()
+   void Log()
     {
         for (int i = 0; i < 5; i++)
             Debuger.Log("log: " + i);
@@ -40,7 +37,7 @@ public class Example : MonoBehaviour
 
     void OtherSetting()
     {
-        Debuger.FontSize = 20;//字体大小
-        Debuger.ItemCountOnScreen = 100;//在屏幕上显示100条日志(如果显示不下,用右侧滚动条拖动查看旧日志)
+        Debuger.FontSize = 20;
+        Debuger.ItemCountOnScreen = 100;
     }
 }
