@@ -1,7 +1,8 @@
 #HiDebug_unity
+-----
 
 [中文说明](https://github.com/hiramtan/HiDebug_unity/releases)
--------------
+
 
 #### How to use
 
