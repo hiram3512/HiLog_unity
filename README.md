@@ -6,7 +6,6 @@
 ### How to use
  you can download unity package from here: [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/hiramtan/HiDebug_unity/releases)
 
--------
 
 ### Features
 ---------
