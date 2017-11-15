@@ -3,7 +3,7 @@
 [中文说明](https://github.com/hiramtan/HiDebug_unity/releases)
 
 
-### How to use
+### 如何使用
  可以从此链接下载最新的unity package: [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/hiramtan/HiDebug_unity/releases)
 
 
@@ -17,7 +17,7 @@
 >- 日志附加时间戳
 >- 是否显示FPS
 
-#### Example
+#### 示例
 ```csharp
 void Start()
     {
