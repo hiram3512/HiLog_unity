@@ -1,7 +1,5 @@
 #HiDebug_unity
 ----------------------
-[中文说明](https://github.com/hiramtan/HiDebug_unity/releases)
-
 
 ### 如何使用
  可以从此链接下载最新的unity package: [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/hiramtan/HiDebug_unity/releases)
