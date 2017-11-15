@@ -36,7 +36,7 @@ void Start()
             Debuger.LogError("error: " + i);
     }
 ```
-#### Screenshot
+#### 截图
 -----------------
 [![](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606212804163.png?ssl=1&w=450)](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606212804163.png?ssl=1&w=450)
 
