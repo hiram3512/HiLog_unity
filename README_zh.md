@@ -1,23 +1,21 @@
 #HiDebug_unity
 ----------------------
-[中文说明](https://github.com/hiramtan/HiDebug_unity/releases)
+
+### 如何使用
+ 可以从此链接下载最新的unity package: [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/hiramtan/HiDebug_unity/releases)
 
 
-### How to use
- You can download unity package from here: [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/hiramtan/HiDebug_unity/releases)
-
-
-### Features
+### 功能
 ---------
->- Support multiple platform(unity editor, exe, Android, iOS, WP...).
->- Enable or disable logs outputting just in one time.
->- Whether enable logs on unity console.
->- Whether enable logs on screen(so that you can still check logs if you don't want to connect Android Studio or xcode)
->- Whether enable write logs into a text(default path is in persistent folder)
->- Adding data and time append to you logs.
->- Whether display FPS or not.
+>- 支持多平台(unity编辑器, exe, Android, iOS, WP...).
+>- 一键开启关闭日志.
+>- 是否将日志显示在控制台.
+>- 是否将日志显示在屏幕(可以不用连接Android Studio,Xcode就可以查看日志)
+>- 是否将日志写入文本文件(默认在persistent目录中,方便崩溃时查看)
+>- 日志附加时间戳
+>- 是否显示FPS
 
-#### Example
+#### 示例
 ```csharp
 void Start()
     {
@@ -38,15 +36,15 @@ void Start()
             Debuger.LogError("error: " + i);
     }
 ```
-#### Screenshot
+#### 截图
 -----------------
 [![](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606212804163.png?ssl=1&w=450)](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606212804163.png?ssl=1&w=450)
 
 [![](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606213032591.png?ssl=1&w=450)](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606213032591.png?ssl=1&w=450)
 
 > **Tip:**
->- You can change font size display on screen.
->- You can set how many logs display on screen.
+>- 可以设置屏幕字体大小
+>- 可以设置屏幕显示日志数量
 
 ```csharp
         Debuger.FontSize = 20;
