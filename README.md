@@ -1,14 +1,22 @@
 #HiDebug_unity
------
-
+----------------------
 [中文说明](https://github.com/hiramtan/HiDebug_unity/releases)
 
 
-#### How to use
-
+### How to use
  you can download unity package from here: [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/hiramtan/HiDebug_unity/releases)
 
+-------
 
+### Features
+
+>- Support multiple platform(unity editor, exe, Android, iOS, WP...).
+>- Enable or disable logs outputting just in one time.
+>- Whether enable logs on unity console.
+>- Whether enable logs on screen(so that you can still check logs if you don't want to connect Android Studio or xcode)
+>- Whether enable write logs into a text(default path is in persistent folder)
+>- Adding data and time append to you logs.
+>- Whether display FPS or not.
 
 #### 功能说明
 > - 兼容所有平台（编辑器，pc，Android，iOS，WP..）
