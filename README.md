@@ -10,10 +10,10 @@
 ### Features
 ---------
 >- Support multiple platform(unity editor, exe, Android, iOS, WP...).
->- Enable or disable logs outputting just in one time.
+>- Enable or disable all log outputtings in one time(when release just set this false).
 >- Whether enable logs on unity console.
 >- Whether enable logs on screen(so that you can still check logs if you don't want to connect Android Studio or xcode)
->- Whether enable write logs into a text(default path is in persistent folder)
+>- Whether enable write logs into a text(default path is persistent folder, when crash can check logs in text)
 >- Adding data and time append to you logs.
 >- Whether display FPS or not.
 
