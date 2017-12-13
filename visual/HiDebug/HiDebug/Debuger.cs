@@ -57,7 +57,6 @@ public sealed class Debuger : MonoBehaviour
             DontDestroyOnLoad(tempGo);
             _instance = tempGo.AddComponent<Debuger>();
         }
-        Application.logMessageReceived += (log, stackTrace, type) => { UpdateScrollPosition(); };
         Application.logMessageReceivedThreaded += (log, stackTrace, type) => { UpdateScrollPosition(); };
     }
 
