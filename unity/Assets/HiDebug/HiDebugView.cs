@@ -86,5 +86,21 @@ public class HiDebugView : MonoBehaviour
             }
             GUI.Button(_rect, "On");
         }
+        else if (_eState == EState.Panel)
+        {
+
+            _scrollPosition = GUILayout.BeginScrollView(_scrollPosition, GUILayout.Width(Screen.width), GUILayout.Height(Screen.height * 0.8f));
+            var tempGuiStyle = new GUIStyle();
+            //tempGuiStyle.fontSize = FontSize;
+            GUILayout.Label("helfgdjklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklkl" +
+                            "dsfalllllllllllllllllllllllllllkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkj" +
+                            "dfsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaljlo", tempGuiStyle);
+            GUILayout.EndScrollView();
+        }
     }
+    private static Vector2 _scrollPosition;
+    //private static void UpdateScrollPosition()
+    //{
+    //    _scrollPosition = new Vector2(_scrollPosition.x, _scrollPosition.y + _logOnScreenList.Count);
+    //}
 }
