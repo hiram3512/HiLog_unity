@@ -39,20 +39,19 @@ public partial class HiDebugView : MonoBehaviour
 {
     private enum EMouse
     {
-        None,
-        Down,
         Up,
-        Click,
-        Drag,
+        Down,
     }
     private readonly float _mouseClickTime = 0.2f;//less than this is click
-    private EMouse _eMouse = EMouse.None;
+    private EMouse _eMouse = EMouse.Up;
     private float _mouseDownTime;
+    Rect _rect = new Rect(0, 0, Screen.width * 0.2f, Screen.height * 0.1f);
     void Button()
     {
         if (_eDisplay != EDisplay.Button)
+        {
             return;
-        Rect _rect = new Rect(0, 0, Screen.width * 0.2f, Screen.height * 0.1f);
+        }
         if (_rect.Contains(Event.current.mousePosition))
         {
             if (Event.current.type == EventType.MouseDown)
@@ -60,29 +59,19 @@ public partial class HiDebugView : MonoBehaviour
                 _eMouse = EMouse.Down;
                 _mouseDownTime = Time.realtimeSinceStartup;
             }
-            else if (Event.current.type == EventType.mouseDrag)
-            {
-                _eMouse = EMouse.Drag;
-            }
             else if (Event.current.type == EventType.MouseUp)
             {
-                if (Time.realtimeSinceStartup - _mouseDownTime < _mouseClickTime)
-                { _eMouse = EMouse.Click; }
-                else { _eMouse = EMouse.Up; }
+                _eMouse = EMouse.Up;
+                if (Time.realtimeSinceStartup - _mouseDownTime < _mouseClickTime)//click
+                { _eDisplay = EDisplay.Panel; }
             }
         }
-#if HiDebug_CurrentMouse
-        if (_eMouse == EMouse.Click)
-            Debug.LogError(_eMouse);
-        else
-            Debug.Log(_eMouse);
-#endif
-        if (_eMouse == EMouse.Drag)
+        if (_eMouse == EMouse.Down && Event.current.type == EventType.mouseDrag)
         {
+            Debug.LogError("drag");
             _rect.x = Event.current.mousePosition.x - _rect.width / 2f;
             _rect.y = Event.current.mousePosition.y - _rect.height / 2f;
         }
-        if (_eMouse == EMouse.Click) { _eDisplay = EDisplay.Panel; }
         GUI.Button(_rect, "On");
     }
 }
