@@ -84,17 +84,15 @@ public partial class HiDebugView : MonoBehaviour
             return;
 
         Rect _rect = new Rect(0, 0, Screen.width, Screen.height * 0.7f);
+        GUIContent t = new GUIContent();
         GUI.Window(0, _rect, PanelWindow, "HiDebug");
     }
 
-    //private bool _isLogOn = true;
-    //private bool _isWarnningOn = true;
-    //private bool _isErrorOn = true;
+    private bool _isLogOn = true;
+    private bool _isWarnningOn = true;
+    private bool _isErrorOn = true;
     void PanelWindow(int windowID)
     {
-        //if (GUILayout.Button("Please click me a lot"))
-        //    print("Got a click");
-
         if (GUI.Button(new Rect(0, 0, Screen.width * 0.2f, Screen.height * 0.1f), "Clear"))
         {
 
@@ -103,6 +101,24 @@ public partial class HiDebugView : MonoBehaviour
         {
             _eDisplay = EDisplay.Button;
         }
-        //_isLogOn = GUI.Toggle(new Rect(Screen.width * 0.4f, 0, Screen.width * 0.1f, Screen.height * 0.1f), _isLogOn, "Log");
+        var headHight = GUI.skin.window.padding.top;//height of head
+        var logStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.white);
+        _isLogOn = GUI.Toggle(new Rect(Screen.width * 0.3f, headHight, Screen.width * 0.1f, Screen.height * 0.1f), _isLogOn, "Log", logStyle);
+        var WarnningStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.yellow);
+        _isWarnningOn = GUI.Toggle(new Rect(Screen.width * 0.5f, headHight, Screen.width * 0.1f, Screen.height * 0.1f), _isWarnningOn, "Warnning", WarnningStyle);
+        var errorStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.red);
+        _isErrorOn = GUI.Toggle(new Rect(Screen.width * 0.7f, headHight, Screen.width * 0.1f, Screen.height * 0.1f), _isErrorOn, "Error", errorStyle);
+
+    }
+
+    GUIStyle GetGUIStype(GUIStyle guiStyle, Color color)
+    {
+        guiStyle.normal.textColor = color;
+        guiStyle.hover.textColor = color;
+        guiStyle.active.textColor = color;
+        guiStyle.onNormal.textColor = color;
+        guiStyle.onHover.textColor = color;
+        guiStyle.onActive.textColor = color;
+        return guiStyle;
     }
 }
