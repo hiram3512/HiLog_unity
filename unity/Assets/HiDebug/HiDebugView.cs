@@ -3,8 +3,9 @@
 // Author: hiramtan@live.com
 //****************************************************************************
 
-#define HiDebug_CurrentMouse
-
+using System;
+using System.IO;
+using UnityEditor;
 using UnityEngine;
 public partial class HiDebugView : MonoBehaviour
 {
@@ -17,12 +18,7 @@ public partial class HiDebugView : MonoBehaviour
         get { return _fontSize / 400f; }
     }
 
-    private static int _fontSize
-    {
-        get { return (int)(Screen.height * 0.02f); }
-    }
-    //= 15;
-
+    private static int _fontSize = (int)(Screen.height * 0.02f);
     private enum EDisplay
     {
         Button,//switch button
@@ -35,6 +31,10 @@ public partial class HiDebugView : MonoBehaviour
         Button();
         Panel();
     }
+
+
+
+
 }
 
 
@@ -74,7 +74,7 @@ public partial class HiDebugView : MonoBehaviour
             _rect.x = Event.current.mousePosition.x - _rect.width / 2f;
             _rect.y = Event.current.mousePosition.y - _rect.height / 2f;
         }
-        GUI.Button(_rect, "On", GetGUIStype(GUI.skin.button, Color.white));
+        GUI.Button(_rect, "On", GetGUISkin(GUI.skin.button, Color.white));
     }
 }
 
@@ -89,30 +89,28 @@ public partial class HiDebugView : MonoBehaviour
         if (_eDisplay != EDisplay.Panel)
             return;
 
-        GUI.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug", GetGUIStype(GUI.skin.window, Color.white));
-        GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height * (1 - _panelHeight)), StackWindow, "Stack", GetGUIStype(GUI.skin.window, Color.white));
+        GUI.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug", GetGUISkin(GUI.skin.window, Color.white));
+        GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height * (1 - _panelHeight)), StackWindow, "Stack", GetGUISkin(GUI.skin.window, Color.white));
     }
     private Vector2 _scrollLogPosition;
     void LogWindow(int windowID)
     {
-        if (GUI.Button(new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Clear", GetGUIStype(GUI.skin.button, Color.white)))
+        if (GUI.Button(new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Clear", GetGUISkin(GUI.skin.button, Color.white)))
         {
             Debug.Log(Screen.height * _perLogHeight);
             _scrollLogPosition = new Vector2(0, Screen.height * _perLogHeight * 20);
         }
-        if (GUI.Button(new Rect(Screen.width * (1 - _buttonWidth), 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Close", GetGUIStype(GUI.skin.button, Color.white)))
+        if (GUI.Button(new Rect(Screen.width * (1 - _buttonWidth), 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Close", GetGUISkin(GUI.skin.button, Color.white)))
         {
             _eDisplay = EDisplay.Button;
         }
         var headHeight = GUI.skin.window.padding.top;//height of head
-        var logStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.white);
+        var logStyle = GetGUISkin(new GUIStyle(GUI.skin.toggle), Color.white);
         _isLogOn = GUI.Toggle(new Rect(Screen.width * 0.3f, headHeight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHeight), _isLogOn, "Log", logStyle);
-        var WarnningStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.yellow);
+        var WarnningStyle = GetGUISkin(new GUIStyle(GUI.skin.toggle), Color.yellow);
         _isWarnningOn = GUI.Toggle(new Rect(Screen.width * 0.5f, headHeight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHeight), _isWarnningOn, "Warnning", WarnningStyle);
-        var errorStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.red);
+        var errorStyle = GetGUISkin(new GUIStyle(GUI.skin.toggle), Color.red);
         _isErrorOn = GUI.Toggle(new Rect(Screen.width * 0.7f, headHeight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHeight), _isErrorOn, "Error", errorStyle);
-
-
 
         GUILayout.Space(Screen.height * _buttonHeight - headHeight);
         _scrollLogPosition = GUILayout.BeginScrollView(_scrollLogPosition);
@@ -125,8 +123,7 @@ public partial class HiDebugView : MonoBehaviour
     {
         for (int i = 0; i < 20; i++)
         {
-            //GUILayout.Button("sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-            GUILayout.Button("lsafjdlsjfdjskafjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjls", GetGUIStype(GUI.skin.button, Color.white), GUILayout.Height(Screen.height * _perLogHeight));
+            GUILayout.Button("lsafjdlsjfdjskaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaas", GetGUISkin(GUI.skin.button, Color.white), GUILayout.Height(Screen.height * _perLogHeight));
 
         }
     }
@@ -142,7 +139,7 @@ public partial class HiDebugView : MonoBehaviour
         GUILayout.EndScrollView();
     }
 
-    GUIStyle GetGUIStype(GUIStyle guiStyle, Color color)
+    GUIStyle GetGUISkin(GUIStyle guiStyle, Color color)
     {
         guiStyle.normal.textColor = color;
         guiStyle.hover.textColor = color;
@@ -150,7 +147,113 @@ public partial class HiDebugView : MonoBehaviour
         guiStyle.onNormal.textColor = color;
         guiStyle.onHover.textColor = color;
         guiStyle.onActive.textColor = color;
+        guiStyle.margin = new RectOffset(0, 0, 0, 0);
         guiStyle.fontSize = _fontSize;
         return guiStyle;
+    }
+}
+//runtime
+public class Debuger_Hi : MonoBehaviour
+{
+    private static bool _isOnConsole;
+    private static bool _isOnText;
+    private static bool _isOnScreen;
+    private static HiDebugView _instance;
+    private static bool _isCallBackSet;
+    public static void SetFontSize()
+    {
+
+    }
+
+    public static void EnableOnConsole(bool isOn)
+    {
+        _isOnConsole = isOn;
+        if (!_isCallBackSet)
+        {
+            _isCallBackSet = true;
+            Application.logMessageReceivedThreaded += LogCallBack;
+        }
+    }
+
+    public static void EnableOnText(bool isOn)
+    {
+        _isOnText = isOn;
+        if (_isOnText)
+            EnableOnConsole(true);
+    }
+
+    public static void EnableOnScreen(bool isOn)
+    {
+        _isOnScreen = isOn;
+        if (_isOnScreen)
+        {
+            EnableOnConsole(true);
+            if (_instance == null)
+            {
+                var go = new GameObject("HiDebug");
+                DontDestroyOnLoad(go);
+                _instance = go.AddComponent<HiDebugView>();
+            }
+        }
+
+
+    }
+
+    public static void Log(object obj)
+    {
+        if (_isOnConsole)
+        {
+            var log = string.Format(GetTime(), obj);
+            log = "<color=white>" + log + "</color>";
+            Debug.Log(log);
+        }
+    }
+
+    public static void LogWarning(object obj)
+    {
+        if (_isOnConsole)
+        {
+            var log = string.Format(GetTime(), obj);
+            log = "<color=yellow>" + log + "</color>";
+            Debug.LogWarning(log);
+        }
+    }
+
+    public static void LogError(object obj)
+    {
+        if (_isOnConsole)
+        {
+            var log = string.Format(GetTime(), obj);
+            log = "<color=red>" + log + "</color>";
+            Debug.LogError(log);
+        }
+    }
+    private static void LogCallBack(string condition, string stackTrace, LogType type)
+    {
+        OnText(condition);
+    }
+    private static string GetTime()
+    {
+        var time = DateTime.Now;
+        return time.ToString("yyyy.MM.dd HH:mm:ss") + ": {0}";
+    }
+
+    private static void OnText(string log)
+    {
+        if (_isOnText)
+        {
+            var path = Application.persistentDataPath + "/HiDebug.txt";
+            var sw = File.AppendText(path);
+            sw.WriteLine(log);
+            sw.Close();
+        }
+    }
+
+    private static void OnScreen(string condition, string stackTrace, LogType type)
+    {
+        if (_isOnScreen)
+        {
+
+        }
     }
 }
