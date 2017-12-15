@@ -10,7 +10,7 @@ public partial class HiDebugView : MonoBehaviour
 {
     private static float _buttonWidth = 0.2f;
     private static float _buttonHeight = 0.1f;
-    private static float _panelHeight = 0.2f;//0.3 is for stack
+    private static float _panelHeight = 0.7f;//0.3 is for stack
     private enum EDisplay
     {
         Button,//switch button
@@ -88,7 +88,7 @@ public partial class HiDebugView : MonoBehaviour
 
 
         GUI.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug");
-        //GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height), StackWindow, "");
+        GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height), StackWindow, "");
 
     }
 
@@ -106,14 +106,15 @@ public partial class HiDebugView : MonoBehaviour
             _eDisplay = EDisplay.Button;
         }
 
-
         var headHight = GUI.skin.window.padding.top;//height of head
         var logStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.white);
-        _isLogOn = GUI.Toggle(new Rect(Screen.width * 0.3f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight), _isLogOn, "Log", logStyle);
+        _isLogOn = GUI.Toggle(new Rect(Screen.width * 0.3f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight-headHight), _isLogOn, "Log", logStyle);
         var WarnningStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.yellow);
-        _isWarnningOn = GUI.Toggle(new Rect(Screen.width * 0.5f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight), _isWarnningOn, "Warnning", WarnningStyle);
+        _isWarnningOn = GUI.Toggle(new Rect(Screen.width * 0.5f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHight), _isWarnningOn, "Warnning", WarnningStyle);
         var errorStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.red);
-        _isErrorOn = GUI.Toggle(new Rect(Screen.width * 0.7f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight), _isErrorOn, "Error", errorStyle);
+        _isErrorOn = GUI.Toggle(new Rect(Screen.width * 0.7f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHight), _isErrorOn, "Error", errorStyle);
+
+
 
         GUILayout.Space(Screen.height * _buttonHeight - headHight);
         _scrollPosition = GUILayout.BeginScrollView(_scrollPosition);
@@ -123,7 +124,7 @@ public partial class HiDebugView : MonoBehaviour
 
     void TestButton()
     {
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 20; i++)
             GUILayout.Button("sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
     }
 
@@ -133,7 +134,6 @@ public partial class HiDebugView : MonoBehaviour
     private Vector2 _scrollPosition;
     void StackWindow(int windowID)
     {
-
     }
 
     GUIStyle GetGUIStype(GUIStyle guiStyle, Color color)
