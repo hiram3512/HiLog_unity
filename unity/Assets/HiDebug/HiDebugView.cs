@@ -11,6 +11,18 @@ public partial class HiDebugView : MonoBehaviour
     private static float _buttonWidth = 0.2f;
     private static float _buttonHeight = 0.1f;
     private static float _panelHeight = 0.7f;//0.3 is for stack
+
+    private static float _perLogHeight
+    {
+        get { return _fontSize / 400f; }
+    }
+
+    private static int _fontSize
+    {
+        get { return (int)(Screen.height * 0.02f); }
+    }
+    //= 15;
+
     private enum EDisplay
     {
         Button,//switch button
@@ -62,31 +74,33 @@ public partial class HiDebugView : MonoBehaviour
             _rect.x = Event.current.mousePosition.x - _rect.width / 2f;
             _rect.y = Event.current.mousePosition.y - _rect.height / 2f;
         }
-        GUI.Button(_rect, "On");
+        GUI.Button(_rect, "On", GetGUIStype(GUI.skin.button, Color.white));
     }
 }
 
 public partial class HiDebugView : MonoBehaviour
 {
+    private bool _isLogOn = true;
+    private bool _isWarnningOn = true;
+    private bool _isErrorOn = true;
+
     void Panel()
     {
         if (_eDisplay != EDisplay.Panel)
             return;
-        GUI.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug");
-        GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height * (1 - _panelHeight)), StackWindow, "Stack");
-    }
 
-    private bool _isLogOn = true;
-    private bool _isWarnningOn = true;
-    private bool _isErrorOn = true;
+        GUI.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug", GetGUIStype(GUI.skin.window, Color.white));
+        GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height * (1 - _panelHeight)), StackWindow, "Stack", GetGUIStype(GUI.skin.window, Color.white));
+    }
     private Vector2 _scrollLogPosition;
     void LogWindow(int windowID)
     {
-        if (GUI.Button(new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Clear"))
+        if (GUI.Button(new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Clear", GetGUIStype(GUI.skin.button, Color.white)))
         {
-
+            Debug.Log(Screen.height * _perLogHeight);
+            _scrollLogPosition = new Vector2(0, Screen.height * _perLogHeight * 20);
         }
-        if (GUI.Button(new Rect(Screen.width * (1 - _buttonWidth), 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Close"))
+        if (GUI.Button(new Rect(Screen.width * (1 - _buttonWidth), 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Close", GetGUIStype(GUI.skin.button, Color.white)))
         {
             _eDisplay = EDisplay.Button;
         }
@@ -102,6 +116,7 @@ public partial class HiDebugView : MonoBehaviour
 
         GUILayout.Space(Screen.height * _buttonHeight - headHeight);
         _scrollLogPosition = GUILayout.BeginScrollView(_scrollLogPosition);
+        Debug.LogError(_scrollLogPosition);
         TestButton();
         GUILayout.EndScrollView();
     }
@@ -109,7 +124,11 @@ public partial class HiDebugView : MonoBehaviour
     void TestButton()
     {
         for (int i = 0; i < 20; i++)
-            GUILayout.Button("sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+        {
+            //GUILayout.Button("sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+            GUILayout.Button("lsafjdlsjfdjskafjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjls", GetGUIStype(GUI.skin.button, Color.white), GUILayout.Height(Screen.height * _perLogHeight));
+
+        }
     }
 
 
@@ -131,6 +150,7 @@ public partial class HiDebugView : MonoBehaviour
         guiStyle.onNormal.textColor = color;
         guiStyle.onHover.textColor = color;
         guiStyle.onActive.textColor = color;
+        guiStyle.fontSize = _fontSize;
         return guiStyle;
     }
 }
