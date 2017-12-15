@@ -88,7 +88,7 @@ public partial class HiDebugView : MonoBehaviour
 
 
         GUI.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug");
-        GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height), StackWindow, "");
+        GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height), StackWindow, "Stack");
 
     }
 
