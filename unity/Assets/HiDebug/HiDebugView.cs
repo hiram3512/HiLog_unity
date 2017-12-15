@@ -22,18 +22,6 @@ public partial class HiDebugView : MonoBehaviour
     {
         Button();
         Panel();
-
-        //else if (_eState == EDisplay.Panel)
-        //{
-
-        //    _scrollPosition = GUILayout.BeginScrollView(_scrollPosition, GUILayout.Width(Screen.width), GUILayout.Height(Screen.height * 0.8f));
-        //    var tempGuiStyle = new GUIStyle();
-        //    //tempGuiStyle.fontSize = FontSize;
-        //    GUILayout.Label("helfgdjklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklkl" +
-        //                    "dsfalllllllllllllllllllllllllllkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkj" +
-        //                    "dfsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaljlo", tempGuiStyle);
-        //    GUILayout.EndScrollView();
-        //}
     }
 }
 
@@ -71,7 +59,6 @@ public partial class HiDebugView : MonoBehaviour
         }
         if (_eMouse == EMouse.Down && Event.current.type == EventType.mouseDrag)
         {
-            Debug.LogError("drag");
             _rect.x = Event.current.mousePosition.x - _rect.width / 2f;
             _rect.y = Event.current.mousePosition.y - _rect.height / 2f;
         }
@@ -85,16 +72,14 @@ public partial class HiDebugView : MonoBehaviour
     {
         if (_eDisplay != EDisplay.Panel)
             return;
-
-
         GUI.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug");
-        GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height), StackWindow, "Stack");
-
+        GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height * (1 - _panelHeight)), StackWindow, "Stack");
     }
 
     private bool _isLogOn = true;
     private bool _isWarnningOn = true;
     private bool _isErrorOn = true;
+    private Vector2 _scrollLogPosition;
     void LogWindow(int windowID)
     {
         if (GUI.Button(new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Clear"))
@@ -105,19 +90,18 @@ public partial class HiDebugView : MonoBehaviour
         {
             _eDisplay = EDisplay.Button;
         }
-
-        var headHight = GUI.skin.window.padding.top;//height of head
+        var headHeight = GUI.skin.window.padding.top;//height of head
         var logStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.white);
-        _isLogOn = GUI.Toggle(new Rect(Screen.width * 0.3f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight-headHight), _isLogOn, "Log", logStyle);
+        _isLogOn = GUI.Toggle(new Rect(Screen.width * 0.3f, headHeight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHeight), _isLogOn, "Log", logStyle);
         var WarnningStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.yellow);
-        _isWarnningOn = GUI.Toggle(new Rect(Screen.width * 0.5f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHight), _isWarnningOn, "Warnning", WarnningStyle);
+        _isWarnningOn = GUI.Toggle(new Rect(Screen.width * 0.5f, headHeight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHeight), _isWarnningOn, "Warnning", WarnningStyle);
         var errorStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.red);
-        _isErrorOn = GUI.Toggle(new Rect(Screen.width * 0.7f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHight), _isErrorOn, "Error", errorStyle);
+        _isErrorOn = GUI.Toggle(new Rect(Screen.width * 0.7f, headHeight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHeight), _isErrorOn, "Error", errorStyle);
 
 
 
-        GUILayout.Space(Screen.height * _buttonHeight - headHight);
-        _scrollPosition = GUILayout.BeginScrollView(_scrollPosition);
+        GUILayout.Space(Screen.height * _buttonHeight - headHeight);
+        _scrollLogPosition = GUILayout.BeginScrollView(_scrollLogPosition);
         TestButton();
         GUILayout.EndScrollView();
     }
@@ -131,9 +115,12 @@ public partial class HiDebugView : MonoBehaviour
 
 
 
-    private Vector2 _scrollPosition;
+    private Vector2 _scrollStackPosition;
     void StackWindow(int windowID)
     {
+        _scrollStackPosition = GUILayout.BeginScrollView(_scrollStackPosition);
+        TestButton();
+        GUILayout.EndScrollView();
     }
 
     GUIStyle GetGUIStype(GUIStyle guiStyle, Color color)
