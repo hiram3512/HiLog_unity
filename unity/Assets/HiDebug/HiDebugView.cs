@@ -8,6 +8,9 @@
 using UnityEngine;
 public partial class HiDebugView : MonoBehaviour
 {
+    private static float _buttonWidth = 0.2f;
+    private static float _buttonHeight = 0.1f;
+    private static float _panelHeight = 0.2f;//0.3 is for stack
     private enum EDisplay
     {
         Button,//switch button
@@ -45,7 +48,7 @@ public partial class HiDebugView : MonoBehaviour
     private readonly float _mouseClickTime = 0.2f;//less than this is click
     private EMouse _eMouse = EMouse.Up;
     private float _mouseDownTime;
-    Rect _rect = new Rect(0, 0, Screen.width * 0.2f, Screen.height * 0.1f);
+    Rect _rect = new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight);
     void Button()
     {
         if (_eDisplay != EDisplay.Button)
@@ -83,31 +86,54 @@ public partial class HiDebugView : MonoBehaviour
         if (_eDisplay != EDisplay.Panel)
             return;
 
-        Rect _rect = new Rect(0, 0, Screen.width, Screen.height * 0.7f);
-        GUIContent t = new GUIContent();
-        GUI.Window(0, _rect, PanelWindow, "HiDebug");
+
+        GUILayout.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug");
+        //GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height), StackWindow, "");
+
     }
 
     private bool _isLogOn = true;
     private bool _isWarnningOn = true;
     private bool _isErrorOn = true;
-    void PanelWindow(int windowID)
+    void LogWindow(int windowID)
     {
-        if (GUI.Button(new Rect(0, 0, Screen.width * 0.2f, Screen.height * 0.1f), "Clear"))
+        if (GUI.Button(new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Clear"))
         {
 
         }
-        if (GUI.Button(new Rect(Screen.width * 0.8f, 0, Screen.width * 0.2f, Screen.height * 0.1f), "Close"))
+        if (GUI.Button(new Rect(Screen.width * (1 - _buttonWidth), 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Close"))
         {
             _eDisplay = EDisplay.Button;
         }
         var headHight = GUI.skin.window.padding.top;//height of head
         var logStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.white);
-        _isLogOn = GUI.Toggle(new Rect(Screen.width * 0.3f, headHight, Screen.width * 0.1f, Screen.height * 0.1f), _isLogOn, "Log", logStyle);
+        _isLogOn = GUI.Toggle(new Rect(Screen.width * 0.3f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight), _isLogOn, "Log", logStyle);
         var WarnningStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.yellow);
-        _isWarnningOn = GUI.Toggle(new Rect(Screen.width * 0.5f, headHight, Screen.width * 0.1f, Screen.height * 0.1f), _isWarnningOn, "Warnning", WarnningStyle);
+        _isWarnningOn = GUI.Toggle(new Rect(Screen.width * 0.5f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight), _isWarnningOn, "Warnning", WarnningStyle);
         var errorStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.red);
-        _isErrorOn = GUI.Toggle(new Rect(Screen.width * 0.7f, headHight, Screen.width * 0.1f, Screen.height * 0.1f), _isErrorOn, "Error", errorStyle);
+        _isErrorOn = GUI.Toggle(new Rect(Screen.width * 0.7f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight), _isErrorOn, "Error", errorStyle);
+
+        //GUI.Label(new Rect(0, Screen.height * _buttonHeight, Screen.width, Screen.height * _panelHeight), "dfdsdsdsdsdsd" +
+        //                                                                                                  "fadfadsfffffffffffffffffffffsdsdsdsdsdsdsdsdsdsdsdsfdsafadsfa" +
+        //                                                                                                  "sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
+        //                                                                                                  "dsdsdsdsdsdssafds");
+
+        //GUILayout.Label("dfdsdsdsdsdsd" +
+        //                "fadfadsfffffffffffffffffffffsdsdsdsdsdsdsdsdsdsdsdsfdsafadsfa" +
+        //                "sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
+        //                "dsdsdsdsdsdssafds", GUI.skin.label);
+        _scrollPosition = GUILayout.BeginScrollView(_scrollPosition, GUI.skin.scrollView);
+        GUILayout.Label("dfdsdsdsdsdsd" +
+                        "fadfadsfffffffffffffffffffffsdsdsdsdsdsdsdsdsdsdsdsfdsafadsfa" +
+                        "sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
+                        "dsdsdsdsdsdssafds", GUI.skin.label);
+        GUILayout.EndScrollView();
+
+
+    }
+    private Vector2 _scrollPosition;
+    void StackWindow(int windowID)
+    {
 
     }
 
