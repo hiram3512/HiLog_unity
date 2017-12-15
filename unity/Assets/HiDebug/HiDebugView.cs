@@ -87,7 +87,7 @@ public partial class HiDebugView : MonoBehaviour
             return;
 
 
-        GUILayout.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug");
+        GUI.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug");
         //GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height), StackWindow, "");
 
     }
@@ -105,6 +105,8 @@ public partial class HiDebugView : MonoBehaviour
         {
             _eDisplay = EDisplay.Button;
         }
+
+
         var headHight = GUI.skin.window.padding.top;//height of head
         var logStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.white);
         _isLogOn = GUI.Toggle(new Rect(Screen.width * 0.3f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight), _isLogOn, "Log", logStyle);
@@ -117,16 +119,29 @@ public partial class HiDebugView : MonoBehaviour
         //                                                                                                  "fadfadsfffffffffffffffffffffsdsdsdsdsdsdsdsdsdsdsdsfdsafadsfa" +
         //                                                                                                  "sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
         //                                                                                                  "dsdsdsdsdsdssafds");
-
         //GUILayout.Label("dfdsdsdsdsdsd" +
         //                "fadfadsfffffffffffffffffffffsdsdsdsdsdsdsdsdsdsdsdsfdsafadsfa" +
         //                "sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
         //                "dsdsdsdsdsdssafds", GUI.skin.label);
+
+        //_scrollPosition = GUI.BeginScrollView(new Rect(0, Screen.height * _buttonHeight, Screen.width, Screen.height), _scrollPosition,
+        //    new Rect(0, Screen.height * _buttonHeight, Screen.width, Screen.height));
+        //GUILayout.Label("dfdsdsdsdsdsd" +
+        //                 "fadfadsfffffffffffffffffffffsdsdsdsdsdsdsdsdsdsdsdsfdsafadsfa" +
+        //                 "sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
+        //                 "dsdsdsdsdsdssafds");
+        //GUI.EndScrollView();
+
+
+
+        GUILayout.Space(Screen.height * _buttonHeight);
+        //GUILayout.Space(Screen.height * _buttonHeight- headHight);
         _scrollPosition = GUILayout.BeginScrollView(_scrollPosition, GUI.skin.scrollView);
         GUILayout.Label("dfdsdsdsdsdsd" +
                         "fadfadsfffffffffffffffffffffsdsdsdsdsdsdsdsdsdsdsdsfdsafadsfa" +
                         "sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
-                        "dsdsdsdsdsdssafds", GUI.skin.label);
+                        "dsdsdsdsdsdssafds");
+
         GUILayout.EndScrollView();
 
 
