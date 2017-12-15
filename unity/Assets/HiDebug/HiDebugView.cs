@@ -115,37 +115,21 @@ public partial class HiDebugView : MonoBehaviour
         var errorStyle = GetGUIStype(new GUIStyle(GUI.skin.toggle), Color.red);
         _isErrorOn = GUI.Toggle(new Rect(Screen.width * 0.7f, headHight, Screen.width * _buttonWidth, Screen.height * _buttonHeight), _isErrorOn, "Error", errorStyle);
 
-        //GUI.Label(new Rect(0, Screen.height * _buttonHeight, Screen.width, Screen.height * _panelHeight), "dfdsdsdsdsdsd" +
-        //                                                                                                  "fadfadsfffffffffffffffffffffsdsdsdsdsdsdsdsdsdsdsdsfdsafadsfa" +
-        //                                                                                                  "sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
-        //                                                                                                  "dsdsdsdsdsdssafds");
-        //GUILayout.Label("dfdsdsdsdsdsd" +
-        //                "fadfadsfffffffffffffffffffffsdsdsdsdsdsdsdsdsdsdsdsfdsafadsfa" +
-        //                "sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
-        //                "dsdsdsdsdsdssafds", GUI.skin.label);
-
-        //_scrollPosition = GUI.BeginScrollView(new Rect(0, Screen.height * _buttonHeight, Screen.width, Screen.height), _scrollPosition,
-        //    new Rect(0, Screen.height * _buttonHeight, Screen.width, Screen.height));
-        //GUILayout.Label("dfdsdsdsdsdsd" +
-        //                 "fadfadsfffffffffffffffffffffsdsdsdsdsdsdsdsdsdsdsdsfdsafadsfa" +
-        //                 "sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
-        //                 "dsdsdsdsdsdssafds");
-        //GUI.EndScrollView();
-
-
-
-        GUILayout.Space(Screen.height * _buttonHeight);
-        //GUILayout.Space(Screen.height * _buttonHeight- headHight);
-        _scrollPosition = GUILayout.BeginScrollView(_scrollPosition, GUI.skin.scrollView);
-        GUILayout.Label("dfdsdsdsdsdsd" +
-                        "fadfadsfffffffffffffffffffffsdsdsdsdsdsdsdsdsdsdsdsfdsafadsfa" +
-                        "sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
-                        "dsdsdsdsdsdssafds");
-
+        GUILayout.Space(Screen.height * _buttonHeight - headHight);
+        _scrollPosition = GUILayout.BeginScrollView(_scrollPosition);
+        TestButton();
         GUILayout.EndScrollView();
-
-
     }
+
+    void TestButton()
+    {
+        for (int i = 0; i < 10; i++)
+            GUILayout.Button("sdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+    }
+
+
+
+
     private Vector2 _scrollPosition;
     void StackWindow(int windowID)
     {
