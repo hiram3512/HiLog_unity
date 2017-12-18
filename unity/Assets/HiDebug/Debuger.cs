@@ -111,7 +111,7 @@ public static class Debuger
             //var path = Application.persistentDataPath + "/HiDebug.txt";
             var path = Application.dataPath + "/HiDebug.txt";
             var sw = File.AppendText(path);
-            sw.WriteLine(logInfo.Condition+logInfo.StackTrace);
+            sw.WriteLine(logInfo.Condition + logInfo.StackTrace);
             sw.Close();
         }
     }

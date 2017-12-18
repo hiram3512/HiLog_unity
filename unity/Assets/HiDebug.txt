@@ -1,1200 +1,3600 @@
 0UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 0UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 0UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 1UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 1UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 1UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 2UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 2UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 2UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 3UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 3UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 3UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 4UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 4UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 4UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 5UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 5UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 5UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 6UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 6UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 6UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 7UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 7UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 7UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 8UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 8UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 8UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 9UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 9UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 9UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 10UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 10UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 10UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 11UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 11UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 11UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 12UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 12UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 12UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 13UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 13UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 13UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 14UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 14UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 14UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 15UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 15UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 15UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 16UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 16UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 16UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 17UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 17UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 17UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 18UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 18UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 18UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 19UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 19UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 19UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 20UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 20UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 20UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 21UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 21UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 21UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 22UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 22UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 22UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 23UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 23UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 23UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 24UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 24UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 24UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 25UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 25UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 25UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 26UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 26UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 26UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 27UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 27UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 27UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 28UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 28UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 28UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 29UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 29UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 29UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 30UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 30UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 30UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 31UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 31UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 31UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 32UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 32UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 32UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 33UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 33UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 33UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 34UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 34UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 34UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 35UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 35UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 35UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 36UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 36UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 36UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 37UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 37UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 37UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 38UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 38UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 38UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 39UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 39UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 39UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 40UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 40UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 40UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 41UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 41UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 41UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 42UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 42UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 42UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 43UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 43UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 43UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 44UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 44UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 44UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 45UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 45UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 45UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 46UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 46UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 46UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 47UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 47UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 47UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 48UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 48UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 48UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 49UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 49UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 49UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 50UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 50UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 50UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 51UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 51UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 51UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 52UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 52UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 52UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 53UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 53UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 53UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 54UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 54UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 54UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 55UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 55UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 55UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 56UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 56UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 56UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 57UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 57UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 57UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 58UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 58UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 58UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 59UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 59UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 59UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 60UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 60UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 60UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 61UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 61UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 61UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 62UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 62UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 62UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 63UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 63UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 63UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 64UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 64UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 64UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 65UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 65UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 65UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 66UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 66UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 66UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 67UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 67UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 67UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 68UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 68UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 68UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 69UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 69UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 69UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 70UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 70UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 70UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 71UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 71UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 71UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 72UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 72UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 72UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 73UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 73UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 73UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 74UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 74UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 74UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 75UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 75UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 75UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 76UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 76UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 76UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 77UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 77UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 77UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 78UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 78UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 78UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 79UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 79UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 79UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 80UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 80UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 80UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 81UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 81UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 81UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 82UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 82UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 82UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 83UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 83UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 83UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 84UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 84UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 84UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 85UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 85UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 85UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 86UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 86UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 86UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 87UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 87UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 87UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 88UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 88UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 88UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 89UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 89UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 89UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 90UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 90UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 90UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 91UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 91UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 91UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 92UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 92UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 92UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 93UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 93UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 93UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 94UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 94UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 94UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 95UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 95UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 95UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 96UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 96UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 96UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 97UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 97UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 97UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 98UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 98UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 98UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
 
 99UnityEngine.Debug:Log(Object)
-Test:Log() (at Assets/Test.cs:55)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:26)
 
 99UnityEngine.Debug:LogWarning(Object)
-Test:Log() (at Assets/Test.cs:56)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:27)
 
 99UnityEngine.Debug:LogError(Object)
-Test:Log() (at Assets/Test.cs:57)
-Test:Start() (at Assets/Test.cs:18)
+Example3:Start() (at Assets/HiDebug/Example/3/Example3.cs:28)
+
+0UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+0UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+0UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+1UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+1UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+1UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+2UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+2UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+2UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+3UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+3UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+3UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+4UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+4UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+4UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+5UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+5UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+5UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+6UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+6UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+6UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+7UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+7UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+7UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+8UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+8UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+8UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+9UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+9UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+9UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+10UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+10UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+10UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+11UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+11UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+11UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+12UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+12UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+12UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+13UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+13UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+13UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+14UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+14UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+14UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+15UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+15UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+15UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+16UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+16UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+16UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+17UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+17UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+17UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+18UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+18UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+18UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+19UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+19UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+19UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+20UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+20UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+20UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+21UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+21UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+21UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+22UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+22UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+22UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+23UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+23UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+23UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+24UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+24UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+24UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+25UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+25UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+25UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+26UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+26UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+26UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+27UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+27UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+27UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+28UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+28UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+28UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+29UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+29UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+29UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+30UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+30UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+30UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+31UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+31UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+31UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+32UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+32UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+32UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+33UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+33UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+33UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+34UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+34UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+34UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+35UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+35UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+35UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+36UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+36UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+36UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+37UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+37UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+37UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+38UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+38UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+38UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+39UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+39UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+39UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+40UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+40UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+40UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+41UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+41UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+41UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+42UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+42UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+42UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+43UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+43UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+43UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+44UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+44UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+44UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+45UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+45UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+45UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+46UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+46UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+46UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+47UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+47UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+47UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+48UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+48UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+48UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+49UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+49UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+49UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+50UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+50UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+50UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+51UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+51UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+51UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+52UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+52UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+52UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+53UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+53UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+53UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+54UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+54UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+54UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+55UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+55UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+55UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+56UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+56UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+56UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+57UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+57UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+57UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+58UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+58UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+58UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+59UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+59UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+59UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+60UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+60UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+60UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+61UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+61UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+61UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+62UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+62UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+62UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+63UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+63UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+63UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+64UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+64UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+64UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+65UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+65UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+65UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+66UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+66UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+66UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+67UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+67UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+67UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+68UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+68UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+68UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+69UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+69UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+69UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+70UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+70UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+70UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+71UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+71UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+71UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+72UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+72UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+72UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+73UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+73UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+73UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+74UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+74UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+74UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+75UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+75UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+75UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+76UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+76UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+76UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+77UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+77UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+77UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+78UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+78UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+78UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+79UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+79UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+79UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+80UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+80UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+80UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+81UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+81UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+81UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+82UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+82UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+82UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+83UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+83UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+83UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+84UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+84UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+84UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+85UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+85UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+85UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+86UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+86UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+86UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+87UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+87UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+87UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+88UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+88UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+88UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+89UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+89UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+89UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+90UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+90UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+90UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+91UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+91UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+91UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+92UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+92UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+92UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+93UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+93UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+93UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+94UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+94UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+94UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+95UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+95UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+95UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+96UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+96UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+96UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+97UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+97UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+97UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+98UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+98UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+98UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+99UnityEngine.Debug:Log(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:52)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+99UnityEngine.Debug:LogWarning(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:53)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+99UnityEngine.Debug:LogError(Object)
+Example1:Use_Debug() (at Assets/HiDebug/Example/1/Example1.cs:54)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:13)
+
+<color=white>2017.12.18 21:56:06: 0</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 0</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 0</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 1</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 1</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 1</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 2</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 2</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 2</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 3</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 3</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 3</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 4</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 4</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 4</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 5</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 5</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 5</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 6</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 6</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 6</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 7</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 7</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 7</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 8</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 8</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 8</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 9</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 9</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 9</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 10</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 10</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 10</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 11</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 11</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 11</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 12</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 12</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 12</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 13</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 13</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 13</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 14</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 14</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 14</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 15</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 15</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 15</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 16</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 16</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 16</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 17</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 17</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 17</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 18</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 18</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 18</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 19</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 19</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 19</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 20</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 20</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 20</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 21</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 21</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 21</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 22</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 22</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 22</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 23</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 23</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 23</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 24</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 24</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 24</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 25</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 25</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 25</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 26</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 26</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 26</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 27</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 27</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 27</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 28</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 28</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 28</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 29</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 29</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 29</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 30</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 30</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 30</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 31</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 31</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 31</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 32</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 32</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 32</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 33</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 33</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 33</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 34</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 34</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 34</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 35</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 35</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 35</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 36</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 36</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 36</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 37</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 37</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 37</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 38</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 38</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 38</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 39</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 39</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 39</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 40</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 40</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 40</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 41</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 41</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 41</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 42</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 42</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 42</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 43</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 43</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 43</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 44</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 44</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 44</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 45</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 45</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 45</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 46</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 46</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 46</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 47</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 47</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 47</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 48</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 48</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 48</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 49</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 49</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 49</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 50</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 50</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 50</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 51</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 51</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 51</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 52</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 52</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 52</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 53</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 53</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 53</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 54</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 54</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 54</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 55</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 55</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 55</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 56</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 56</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 56</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 57</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 57</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 57</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 58</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 58</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 58</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 59</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 59</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 59</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 60</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 60</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 60</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 61</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 61</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 61</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 62</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 62</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 62</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 63</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 63</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 63</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 64</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 64</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 64</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 65</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 65</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 65</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 66</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 66</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 66</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 67</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 67</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 67</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 68</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 68</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 68</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 69</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 69</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 69</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 70</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 70</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 70</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 71</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 71</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 71</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 72</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 72</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 72</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 73</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 73</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 73</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 74</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 74</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 74</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 75</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 75</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 75</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 76</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 76</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 76</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 77</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 77</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 77</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 78</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 78</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 78</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 79</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 79</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 79</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 80</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 80</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 80</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 81</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 81</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 81</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 82</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 82</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 82</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 83</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 83</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 83</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 84</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 84</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 84</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 85</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 85</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 85</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 86</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 86</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 86</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 87</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 87</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 87</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 88</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 88</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 88</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 89</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 89</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 89</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 90</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 90</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 90</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 91</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 91</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 91</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 92</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 92</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 92</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 93</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 93</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 93</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 94</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 94</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 94</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 95</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 95</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 95</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 96</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 96</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 96</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 97</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 97</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 97</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 98</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 98</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 98</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=white>2017.12.18 21:56:06: 99</color>UnityEngine.Debug:Log(Object)
+Debuger:Log(Object) (at Assets/HiDebug/Debuger.cs:71)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:34)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=yellow>2017.12.18 21:56:06: 99</color>UnityEngine.Debug:LogWarning(Object)
+Debuger:LogWarning(Object) (at Assets/HiDebug/Debuger.cs:81)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:35)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
+
+<color=red>2017.12.18 21:56:06: 99</color>UnityEngine.Debug:LogError(Object)
+Debuger:LogError(Object) (at Assets/HiDebug/Debuger.cs:91)
+Example1:Use_Debuger() (at Assets/HiDebug/Example/1/Example1.cs:36)
+Example1:Start() (at Assets/HiDebug/Example/1/Example1.cs:14)
 

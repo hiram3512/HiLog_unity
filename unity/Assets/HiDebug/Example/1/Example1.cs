@@ -5,24 +5,18 @@
 
 using UnityEngine;
 
-public class Test : MonoBehaviour
+public class Example1 : MonoBehaviour
 {
-
     // Use this for initialization
     void Start()
     {
-        Debuger.EnableOnScreen(true);
-        Debuger.EnableOnText(true);
-
-
-        Log();
+        Use_Debug();
+        Use_Debuger();
     }
 
 
-
-
     /// <summary>
-    /// use debuger, you can enable or disable just one switch
+    /// use debuger, you can enable or disable logs just one switch
     /// and also it automatically add time to your logs 
     /// </summary>
     void Use_Debuger()
@@ -34,6 +28,13 @@ public class Test : MonoBehaviour
 
         Debuger.EnableOnText(true);
         Debuger.EnableOnScreen(true);
+
+        for (int i = 0; i < 100; i++)
+        {
+            Debuger.Log(i);
+            Debuger.LogWarning(i);
+            Debuger.LogError(i);
+        }
     }
 
 
@@ -45,11 +46,7 @@ public class Test : MonoBehaviour
     {
         Debuger.EnableOnText(true);
         Debuger.EnableOnScreen(true);
-    }
 
-
-    void Log()
-    {
         for (int i = 0; i < 100; i++)
         {
             Debug.Log(i);
