@@ -6,18 +6,37 @@
 ### How to use
  You can download unity package from here: [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/hiramtan/HiDebug_unity/releases)
 
- or you can
+ or you can download from unity asset store: 
 
+---------
 
 ### Features
----------
+
 >- Support multiple platform(unity editor, exe, Android, iOS, WP...).
->- Enable or disable all log outputtings in one time(when release just set this false).
->- Whether enable logs on unity console.
+>- Enable or disable all logs in one switch(debug mode set true let logs on, release mode set false disable all logs out put).
 >- Whether enable logs on screen(so that you can still check logs if you don't want to connect Android Studio or xcode)
 >- Whether enable write logs into a text(default path is persistent folder, when crash can check logs in text)
 >- Adding data and time append to you logs.
->- Whether display FPS or not.
+>- Display stack on screen or record stack in text.
+>- There is only a DLL, you can copy this to your project to use whole functionality
+
+
+### Details
+
+1. Logs On Console:
+
+If you use Debuger.Log or Debuger.LogWarnning or Debuger.LogError print logs, you can enable or disable all of them just set Debuger.EnableHiDebugLogs(false).
+
+Also, it will automatically add data and time to your logs.
+
+[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_223835.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_223835.png)
+
+
+
+
+2. Logs in text:
+
+3. Logs on screen:
 
 #### Example
 ```csharp
