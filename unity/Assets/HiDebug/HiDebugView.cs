@@ -73,7 +73,7 @@ public partial class HiDebugView : MonoBehaviour
             _rect.x = Event.current.mousePosition.x - _rect.width / 2f;
             _rect.y = Event.current.mousePosition.y - _rect.height / 2f;
         }
-        GUI.Button(_rect, "On", GetGUISkin(GUI.skin.button, Color.white));
+        GUI.Button(_rect, "On", GetGUISkin(GUI.skin.button, Color.white, TextAnchor.MiddleCenter));
     }
 }
 
@@ -89,28 +89,28 @@ public partial class HiDebugView : MonoBehaviour
         if (_eDisplay != EDisplay.Panel)
             return;
 
-        GUI.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug", GetGUISkin(GUI.skin.window, Color.white));
-        GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height * (1 - _panelHeight)), StackWindow, "Stack", GetGUISkin(GUI.skin.window, Color.white));
+        GUI.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug", GetGUISkin(GUI.skin.window, Color.white, TextAnchor.UpperCenter));
+        GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height * (1 - _panelHeight)), StackWindow, "Stack", GetGUISkin(GUI.skin.window, Color.white, TextAnchor.UpperCenter));
     }
     private Vector2 _scrollLogPosition;
     void LogWindow(int windowID)
     {
-        if (GUI.Button(new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Clear", GetGUISkin(GUI.skin.button, Color.white)))
+        if (GUI.Button(new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Clear", GetGUISkin(GUI.skin.button, Color.white, TextAnchor.MiddleCenter)))
         {
             //Debug.Log(Screen.height * _perLogHeight);
             //_scrollLogPosition = new Vector2(0, Screen.height * _perLogHeight * 20);
             logInfos.Clear();
         }
-        if (GUI.Button(new Rect(Screen.width * (1 - _buttonWidth), 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Close", GetGUISkin(GUI.skin.button, Color.white)))
+        if (GUI.Button(new Rect(Screen.width * (1 - _buttonWidth), 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Close", GetGUISkin(GUI.skin.button, Color.white, TextAnchor.MiddleCenter)))
         {
             _eDisplay = EDisplay.Button;
         }
         var headHeight = GUI.skin.window.padding.top;//height of head
-        var logStyle = GetGUISkin(new GUIStyle(GUI.skin.toggle), Color.white);
+        var logStyle = GetGUISkin(GUI.skin.toggle, Color.white, TextAnchor.UpperLeft);
         _isLogOn = GUI.Toggle(new Rect(Screen.width * 0.3f, headHeight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHeight), _isLogOn, "Log", logStyle);
-        var WarnningStyle = GetGUISkin(new GUIStyle(GUI.skin.toggle), Color.yellow);
+        var WarnningStyle = GetGUISkin(GUI.skin.toggle, Color.yellow, TextAnchor.UpperLeft);
         _isWarnningOn = GUI.Toggle(new Rect(Screen.width * 0.5f, headHeight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHeight), _isWarnningOn, "Warnning", WarnningStyle);
-        var errorStyle = GetGUISkin(new GUIStyle(GUI.skin.toggle), Color.red);
+        var errorStyle = GetGUISkin(GUI.skin.toggle, Color.red, TextAnchor.UpperLeft);
         _isErrorOn = GUI.Toggle(new Rect(Screen.width * 0.7f, headHeight, Screen.width * _buttonWidth, Screen.height * _buttonHeight - headHeight), _isErrorOn, "Error", errorStyle);
 
         GUILayout.Space(Screen.height * _buttonHeight - headHeight);
@@ -123,7 +123,7 @@ public partial class HiDebugView : MonoBehaviour
     {
         for (int i = 0; i < logInfos.Count; i++)
         {
-            if (GUILayout.Button(logInfos[i].Condition))
+            if (GUILayout.Button(logInfos[i].Condition, GetGUISkin(GUI.skin.button, GetColor(logInfos[i].Type), TextAnchor.MiddleLeft)))
             {
                 StackItem(logInfos[i]);
             }
@@ -161,7 +161,7 @@ public partial class HiDebugView : MonoBehaviour
         logInfos.Add(logInfo);
     }
 
-    GUIStyle GetGUISkin(GUIStyle guiStyle, Color color)
+    GUIStyle GetGUISkin(GUIStyle guiStyle, Color color, TextAnchor style)
     {
         guiStyle.normal.textColor = color;
         guiStyle.hover.textColor = color;
@@ -170,8 +170,23 @@ public partial class HiDebugView : MonoBehaviour
         guiStyle.onHover.textColor = color;
         guiStyle.onActive.textColor = color;
         guiStyle.margin = new RectOffset(0, 0, 0, 0);
+        guiStyle.alignment = style;
         guiStyle.fontSize = _fontSize;
         return guiStyle;
+    }
+
+    Color GetColor(LogType type)
+    {
+        var color = Color.white;
+        if (type == LogType.Log)
+            return Color.white;
+        if (type == LogType.Warning)
+            return Color.yellow;
+        if (type == LogType.Error)
+            return Color.red;
+        if (type == LogType.Exception)
+            return Color.red;
+        return Color.white;
     }
 }
 
