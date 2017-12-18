@@ -14,7 +14,7 @@ public class Test : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Debuger_Hi.EnableOnConsole(true);
+        Debuger_Hi.EnableOnScreen(true);
         Debuger_Hi.Log("hello");
 
     }

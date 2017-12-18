@@ -4,9 +4,12 @@
 //****************************************************************************
 
 using System;
+using System.Collections.Generic;
 using System.IO;
-using UnityEditor;
 using UnityEngine;
+
+//runtime
+//切换场景 donnt destroy
 public partial class HiDebugView : MonoBehaviour
 {
     private static float _buttonWidth = 0.2f;
@@ -31,13 +34,9 @@ public partial class HiDebugView : MonoBehaviour
         Button();
         Panel();
     }
-
-
-
-
 }
 
-
+//button
 public partial class HiDebugView : MonoBehaviour
 {
     private enum EMouse
@@ -78,6 +77,7 @@ public partial class HiDebugView : MonoBehaviour
     }
 }
 
+//panel
 public partial class HiDebugView : MonoBehaviour
 {
     private bool _isLogOn = true;
@@ -97,8 +97,9 @@ public partial class HiDebugView : MonoBehaviour
     {
         if (GUI.Button(new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Clear", GetGUISkin(GUI.skin.button, Color.white)))
         {
-            Debug.Log(Screen.height * _perLogHeight);
-            _scrollLogPosition = new Vector2(0, Screen.height * _perLogHeight * 20);
+            //Debug.Log(Screen.height * _perLogHeight);
+            //_scrollLogPosition = new Vector2(0, Screen.height * _perLogHeight * 20);
+            logInfos.Clear();
         }
         if (GUI.Button(new Rect(Screen.width * (1 - _buttonWidth), 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Close", GetGUISkin(GUI.skin.button, Color.white)))
         {
@@ -114,29 +115,50 @@ public partial class HiDebugView : MonoBehaviour
 
         GUILayout.Space(Screen.height * _buttonHeight - headHeight);
         _scrollLogPosition = GUILayout.BeginScrollView(_scrollLogPosition);
-        Debug.LogError(_scrollLogPosition);
-        TestButton();
+        LogItem();
         GUILayout.EndScrollView();
     }
 
-    void TestButton()
+    void LogItem()
     {
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < logInfos.Count; i++)
         {
-            GUILayout.Button("lsafjdlsjfdjskaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaas", GetGUISkin(GUI.skin.button, Color.white), GUILayout.Height(Screen.height * _perLogHeight));
-
+            if (GUILayout.Button(logInfos[i].Condition))
+            {
+                StackItem(logInfos[i]);
+            }
         }
     }
-
-
-
-
     private Vector2 _scrollStackPosition;
     void StackWindow(int windowID)
     {
         _scrollStackPosition = GUILayout.BeginScrollView(_scrollStackPosition);
-        TestButton();
+        Test();
         GUILayout.EndScrollView();
+    }
+
+    void Test()
+    {
+        if (stackInfos != null)
+        {
+            for (int i = 0; i < stackInfos.Length; i++)
+            {
+                GUILayout.Label(stackInfos[i]);
+            }
+        }
+    }
+
+    void StackItem(LogInfo logInfo)
+    {
+        stackInfos = logInfo.StackTrace.Split('\n');
+
+    }
+
+    private string[] stackInfos;
+    List<LogInfo> logInfos = new List<LogInfo>();
+    public void UpdateLog(LogInfo logInfo)
+    {
+        logInfos.Add(logInfo);
     }
 
     GUIStyle GetGUISkin(GUIStyle guiStyle, Color color)
@@ -152,26 +174,32 @@ public partial class HiDebugView : MonoBehaviour
         return guiStyle;
     }
 }
-//runtime
-public class Debuger_Hi : MonoBehaviour
+
+
+
+public static class Debuger_Hi
 {
+    private static int _fontSize;
     private static bool _isOnConsole;
     private static bool _isOnText;
     private static bool _isOnScreen;
     private static HiDebugView _instance;
     private static bool _isCallBackSet;
-    public static void SetFontSize()
+    public static void SetFontSize(int size)
     {
-
+        _fontSize = size;
     }
 
     public static void EnableOnConsole(bool isOn)
     {
         _isOnConsole = isOn;
-        if (!_isCallBackSet)
+        if (_isOnConsole)
         {
-            _isCallBackSet = true;
-            Application.logMessageReceivedThreaded += LogCallBack;
+            if (!_isCallBackSet)
+            {
+                _isCallBackSet = true;
+                Application.logMessageReceivedThreaded += LogCallBack;
+            }
         }
     }
 
@@ -179,7 +207,9 @@ public class Debuger_Hi : MonoBehaviour
     {
         _isOnText = isOn;
         if (_isOnText)
+        {
             EnableOnConsole(true);
+        }
     }
 
     public static void EnableOnScreen(bool isOn)
@@ -191,12 +221,10 @@ public class Debuger_Hi : MonoBehaviour
             if (_instance == null)
             {
                 var go = new GameObject("HiDebug");
-                DontDestroyOnLoad(go);
+                UnityEngine.Object.DontDestroyOnLoad(go);
                 _instance = go.AddComponent<HiDebugView>();
             }
         }
-
-
     }
 
     public static void Log(object obj)
@@ -228,9 +256,12 @@ public class Debuger_Hi : MonoBehaviour
             Debug.LogError(log);
         }
     }
+
+
     private static void LogCallBack(string condition, string stackTrace, LogType type)
     {
         OnText(condition);
+        OnScreen(new LogInfo(condition, stackTrace, type));
     }
     private static string GetTime()
     {
@@ -249,11 +280,24 @@ public class Debuger_Hi : MonoBehaviour
         }
     }
 
-    private static void OnScreen(string condition, string stackTrace, LogType type)
+    private static void OnScreen(LogInfo logInfo)
     {
         if (_isOnScreen)
         {
-
+            _instance.UpdateLog(logInfo);
         }
+    }
+}
+public class LogInfo
+{
+    public string Condition { get; private set; }
+    public string StackTrace { get; private set; }
+    public LogType Type { get; private set; }
+
+    public LogInfo(string condition, string stackTrace, LogType type)
+    {
+        Condition = condition;
+        StackTrace = stackTrace;
+        Type = type;
     }
 }
