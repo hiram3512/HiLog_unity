@@ -17,11 +17,18 @@ public class Test : MonoBehaviour
         Debuger_Hi.EnableOnScreen(true);
         Debuger_Hi.Log("hello");
 
+        Debuger_Hi.LogWarning(1 == 2);
+        Do();
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
+
+    void Do()
+    {
+        Debuger_Hi.LogError("from?");
     }
 }

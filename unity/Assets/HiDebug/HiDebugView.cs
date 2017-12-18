@@ -97,9 +97,8 @@ public partial class HiDebugView : MonoBehaviour
     {
         if (GUI.Button(new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Clear", GetGUISkin(GUI.skin.button, Color.white, TextAnchor.MiddleCenter)))
         {
-            //Debug.Log(Screen.height * _perLogHeight);
-            //_scrollLogPosition = new Vector2(0, Screen.height * _perLogHeight * 20);
             logInfos.Clear();
+            _stackInfo = null;
         }
         if (GUI.Button(new Rect(Screen.width * (1 - _buttonWidth), 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Close", GetGUISkin(GUI.skin.button, Color.white, TextAnchor.MiddleCenter)))
         {
@@ -125,7 +124,7 @@ public partial class HiDebugView : MonoBehaviour
         {
             if (GUILayout.Button(logInfos[i].Condition, GetGUISkin(GUI.skin.button, GetColor(logInfos[i].Type), TextAnchor.MiddleLeft)))
             {
-                StackItem(logInfos[i]);
+                _stackInfo = logInfos[i];
             }
         }
     }
@@ -133,29 +132,25 @@ public partial class HiDebugView : MonoBehaviour
     void StackWindow(int windowID)
     {
         _scrollStackPosition = GUILayout.BeginScrollView(_scrollStackPosition);
-        Test();
+        StackItem();
         GUILayout.EndScrollView();
     }
 
-    void Test()
+
+
+    void StackItem()
     {
-        if (stackInfos != null)
+        if (_stackInfo == null)
+            return;
+        var strs = _stackInfo.StackTrace.Split('\n');
+        for (int i = 0; i < strs.Length; i++)
         {
-            for (int i = 0; i < stackInfos.Length; i++)
-            {
-                GUILayout.Label(stackInfos[i]);
-            }
+            GUILayout.Label(strs[i], GetGUISkin(GUI.skin.label, GetColor(_stackInfo.Type), TextAnchor.MiddleLeft));
         }
     }
 
-    void StackItem(LogInfo logInfo)
-    {
-        stackInfos = logInfo.StackTrace.Split('\n');
-
-    }
-
-    private string[] stackInfos;
     List<LogInfo> logInfos = new List<LogInfo>();
+    private LogInfo _stackInfo;
     public void UpdateLog(LogInfo logInfo)
     {
         logInfos.Add(logInfo);
