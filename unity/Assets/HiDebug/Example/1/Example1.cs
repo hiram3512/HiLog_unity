@@ -1,5 +1,5 @@
 ﻿//****************************************************************************
-// Description:
+// Description:download newest version from: https://github.com/hiramtan/HiDebug_unity/releases
 // Author: hiramtan@live.com
 //****************************************************************************
 
@@ -13,7 +13,6 @@ public class Example1 : MonoBehaviour
         Use_Debug();
         Use_Debuger();
     }
-
 
     /// <summary>
     /// use debuger, you can enable or disable logs just one switch
@@ -36,7 +35,6 @@ public class Example1 : MonoBehaviour
             Debuger.LogError(i);
         }
     }
-
 
     /// <summary>
     /// if you donnt want use Debuger.Log()/Debuger.LogWarnning()/Debuger.LogError()

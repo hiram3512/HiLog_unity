@@ -1,10 +1,8 @@
 ﻿//****************************************************************************
-// Description:
+// Description:download newest version from: https://github.com/hiramtan/HiDebug_unity/releases
 // Author: hiramtan@live.com
 //****************************************************************************
 
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Example3 : MonoBehaviour
@@ -27,11 +25,5 @@ public class Example3 : MonoBehaviour
             Debug.LogWarning(i);
             Debug.LogError(i);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

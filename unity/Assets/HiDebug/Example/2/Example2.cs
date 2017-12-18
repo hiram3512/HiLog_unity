@@ -1,16 +1,14 @@
 ﻿//****************************************************************************
-// Description:
+// Description:download newest version from: https://github.com/hiramtan/HiDebug_unity/releases
 // Author: hiramtan@live.com
 //****************************************************************************
 
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Example2 : MonoBehaviour
 {
     [SerializeField]
-    private bool _isLogOn;
+    private bool _isLogOn;//set this value from inspector
     [SerializeField]
     private bool _isLogOnText;
     [SerializeField]
@@ -29,12 +27,6 @@ public class Example2 : MonoBehaviour
             Debuger.LogError(i);
         }
 
-        Debuger.FontSize = 20;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        Debuger.FontSize = 20;//set size of font
     }
 }
