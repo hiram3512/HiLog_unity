@@ -1,27 +1,20 @@
-﻿//****************************************************************************
-// Description:hidebug's view logic
-// Author: hiramtan@live.com
-//****************************************************************************
+﻿/*////////////////////////////////////////////////////////////////////////////////////
+ *  * Description: hidebug's view logic
+ *  
+ * Author: hiramtan@live.com
+ *////////////////////////////////////////////////////////////////////////////////////
 
 using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-//runtime
-//切换场景 donnt destroy
-public partial class HiDebugView : MonoBehaviour
+public partial class HiDebug : MonoBehaviour
 {
     private static float _buttonWidth = 0.2f;
     private static float _buttonHeight = 0.1f;
     private static float _panelHeight = 0.7f;//0.3 is for stack
 
-    private static float _perLogHeight
-    {
-        get { return _fontSize / 400f; }
-    }
-
-    private static int _fontSize = (int)(Screen.height * 0.02f);
     private enum EDisplay
     {
         Button,//switch button
@@ -37,7 +30,7 @@ public partial class HiDebugView : MonoBehaviour
 }
 
 //button
-public partial class HiDebugView : MonoBehaviour
+public partial class HiDebug : MonoBehaviour
 {
     private enum EMouse
     {
@@ -47,7 +40,7 @@ public partial class HiDebugView : MonoBehaviour
     private readonly float _mouseClickTime = 0.2f;//less than this is click
     private EMouse _eMouse = EMouse.Up;
     private float _mouseDownTime;
-    Rect _rect = new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight);
+    private Rect _rect = new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight);
     void Button()
     {
         if (_eDisplay != EDisplay.Button)
@@ -78,7 +71,7 @@ public partial class HiDebugView : MonoBehaviour
 }
 
 //panel
-public partial class HiDebugView : MonoBehaviour
+public partial class HiDebug : MonoBehaviour
 {
     private bool _isLogOn = true;
     private bool _isWarnningOn = true;
@@ -122,6 +115,21 @@ public partial class HiDebugView : MonoBehaviour
     {
         for (int i = 0; i < logInfos.Count; i++)
         {
+            if (logInfos[i].Type == LogType.Log)
+            {
+                if (!_isLogOn)
+                    continue;
+            }
+            else if (logInfos[i].Type == LogType.Warning)
+            {
+                if (!_isWarnningOn)
+                    continue;
+            }
+            else if (logInfos[i].Type == LogType.Error)
+            {
+                if (!_isErrorOn)
+                    continue;
+            }
             if (GUILayout.Button(logInfos[i].Condition, GetGUISkin(GUI.skin.button, GetColor(logInfos[i].Type), TextAnchor.MiddleLeft)))
             {
                 _stackInfo = logInfos[i];
@@ -135,8 +143,6 @@ public partial class HiDebugView : MonoBehaviour
         StackItem();
         GUILayout.EndScrollView();
     }
-
-
 
     void StackItem()
     {
@@ -166,13 +172,12 @@ public partial class HiDebugView : MonoBehaviour
         guiStyle.onActive.textColor = color;
         guiStyle.margin = new RectOffset(0, 0, 0, 0);
         guiStyle.alignment = style;
-        guiStyle.fontSize = _fontSize;
+        guiStyle.fontSize = Debuger.FontSize;
         return guiStyle;
     }
 
     Color GetColor(LogType type)
     {
-        var color = Color.white;
         if (type == LogType.Log)
             return Color.white;
         if (type == LogType.Warning)
@@ -187,127 +192,4 @@ public partial class HiDebugView : MonoBehaviour
 
 
 
-public static class Debuger_Hi
-{
-    private static int _fontSize;
-    private static bool _isOnConsole;
-    private static bool _isOnText;
-    private static bool _isOnScreen;
-    private static HiDebugView _instance;
-    private static bool _isCallBackSet;
-    public static void SetFontSize(int size)
-    {
-        _fontSize = size;
-    }
 
-    public static void EnableOnConsole(bool isOn)
-    {
-        _isOnConsole = isOn;
-        if (_isOnConsole)
-        {
-            if (!_isCallBackSet)
-            {
-                _isCallBackSet = true;
-                Application.logMessageReceivedThreaded += LogCallBack;
-            }
-        }
-    }
-
-    public static void EnableOnText(bool isOn)
-    {
-        _isOnText = isOn;
-        if (_isOnText)
-        {
-            EnableOnConsole(true);
-        }
-    }
-
-    public static void EnableOnScreen(bool isOn)
-    {
-        _isOnScreen = isOn;
-        if (_isOnScreen)
-        {
-            EnableOnConsole(true);
-            if (_instance == null)
-            {
-                var go = new GameObject("HiDebug");
-                UnityEngine.Object.DontDestroyOnLoad(go);
-                _instance = go.AddComponent<HiDebugView>();
-            }
-        }
-    }
-
-    public static void Log(object obj)
-    {
-        if (_isOnConsole)
-        {
-            var log = string.Format(GetTime(), obj);
-            log = "<color=white>" + log + "</color>";
-            Debug.Log(log);
-        }
-    }
-
-    public static void LogWarning(object obj)
-    {
-        if (_isOnConsole)
-        {
-            var log = string.Format(GetTime(), obj);
-            log = "<color=yellow>" + log + "</color>";
-            Debug.LogWarning(log);
-        }
-    }
-
-    public static void LogError(object obj)
-    {
-        if (_isOnConsole)
-        {
-            var log = string.Format(GetTime(), obj);
-            log = "<color=red>" + log + "</color>";
-            Debug.LogError(log);
-        }
-    }
-
-
-    private static void LogCallBack(string condition, string stackTrace, LogType type)
-    {
-        OnText(condition);
-        OnScreen(new LogInfo(condition, stackTrace, type));
-    }
-    private static string GetTime()
-    {
-        var time = DateTime.Now;
-        return time.ToString("yyyy.MM.dd HH:mm:ss") + ": {0}";
-    }
-
-    private static void OnText(string log)
-    {
-        if (_isOnText)
-        {
-            var path = Application.persistentDataPath + "/HiDebug.txt";
-            var sw = File.AppendText(path);
-            sw.WriteLine(log);
-            sw.Close();
-        }
-    }
-
-    private static void OnScreen(LogInfo logInfo)
-    {
-        if (_isOnScreen)
-        {
-            _instance.UpdateLog(logInfo);
-        }
-    }
-}
-public class LogInfo
-{
-    public string Condition { get; private set; }
-    public string StackTrace { get; private set; }
-    public LogType Type { get; private set; }
-
-    public LogInfo(string condition, string stackTrace, LogType type)
-    {
-        Condition = condition;
-        StackTrace = stackTrace;
-        Type = type;
-    }
-}
