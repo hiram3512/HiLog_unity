@@ -25,54 +25,149 @@
 
 1. Logs On Console:
 
-If you use Debuger.Log or Debuger.LogWarnning or Debuger.LogError print logs, you can enable or disable all of them just set Debuger.EnableHiDebugLogs(false).
+``` csharp
+Debuger.EnableHiDebugLogs(true);
+```
+
+If you use Debuger.Log or Debuger.LogWarnning or Debuger.LogError print logs, you can disable all of them just set Debuger.EnableHiDebugLogs(false).
 
 Also, it will automatically add data and time to your logs.
 
 [![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_223835.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_223835.png)
 
-
-
+Of course, you can select don't use this function, and prefer to use unityengine's Debug.Log, those logs can also display on screen or write into text.
 
 2. Logs in text:
 
+``` csharp
+Debuger.EnableOnText(true);
+```
+
+Will record logs and stacks into a text, the default path is Application.persistentDataPath.
+
+[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_225219.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_225219.png)
+
 3. Logs on screen:
 
-#### Example
+``` csharp
+Debuger.EnableOnScreen(true);
+```
+Will display a button on your screen,you can drag this button to anywhere you want(don't cover your game's button)
+
+When you click this button, will open a panel to display logs and stacks.
+
+>- Click per out put log to select to show its stack.
+>- Toggle log or warnning or error to select only display this kind of logs.
+>- Clear all logs on screen.
+>- Close this panel back to your game display.
+>- Set font size display on screen.
+
+[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/ezgif-5-9829fc97d6.gif)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/ezgif-5-9829fc97d6.gif)
+
+----------
+#### Example1
 ```csharp
 void Start()
     {
-        Debuger.EnableOnConsole(true); //disable on console
-        Debuger.EnableOnScreen(true);//disable on screen
-        Debuger.EnableOnText(true);//write in text(persistent folder)
-        Debuger.EnableFps(true);//display fps
-
-        Log();
+        Use_Debug();
+        Use_Debuger();
     }
-   void Log()
+
+    /// <summary>
+    /// use debuger, you can enable or disable logs just one switch
+    /// and also it automatically add time to your logs 
+    /// </summary>
+    void Use_Debuger()
     {
-        for (int i = 0; i < 5; i++)
-            Debuger.Log("log: " + i);
-        for (int i = 0; i < 5; i++)
-            Debuger.LogWarning("warning: " + i);
-        for (int i = 0; i < 5; i++)
-            Debuger.LogError("error: " + i);
+        //you can set all debuger's out put logs disable just set this value false(pc,android,ios...etc)
+        //it's convenient in release mode, just set this false, and in debug mode set this true.
+        Debuger.EnableHiDebugLogs(true);
+        //Debuger.EnableHiDebugLogs(false);
+
+        Debuger.EnableOnText(true);
+        Debuger.EnableOnScreen(true);
+
+        for (int i = 0; i < 100; i++)
+        {
+            Debuger.Log(i);
+            Debuger.LogWarning(i);
+            Debuger.LogError(i);
+        }
+    }
+
+    /// <summary>
+    /// if you donnt want use Debuger.Log()/Debuger.LogWarnning()/Debuger.LogError()
+    /// you can still let UnityEngine's Debug on your screen or write them into text
+    /// </summary>
+    void Use_Debug()
+    {
+        Debuger.EnableOnText(true);
+        Debuger.EnableOnScreen(true);
+
+        for (int i = 0; i < 100; i++)
+        {
+            Debug.Log(i);
+            Debug.LogWarning(i);
+            Debug.LogError(i);
+        }
     }
 ```
-#### Screenshot
------------------
-[![](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606212804163.png?ssl=1&w=450)](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606212804163.png?ssl=1&w=450)
+[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094412.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094412.png)
+#### Example2
+``` csharp
+[SerializeField]
+    private bool _isLogOn;//set this value from inspector
+    [SerializeField]
+    private bool _isLogOnText;
+    [SerializeField]
+    private bool _isLogOnScreen;
+    // Use this for initialization
+    void Start()
+    {
+        Debuger.EnableHiDebugLogs(_isLogOn);
+        Debuger.EnableOnText(_isLogOnText);
+        Debuger.EnableOnScreen(_isLogOnScreen);
 
-[![](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606213032591.png?ssl=1&w=450)](https://i1.wp.com/hiramtan.files.wordpress.com/2017/08/20160606213032591.png?ssl=1&w=450)
+        for (int i = 0; i < 100; i++)
+        {
+            Debuger.Log(i);
+            Debuger.LogWarning(i);
+            Debuger.LogError(i);
+        }
 
-> **Tip:**
->- You can change font size display on screen.
->- You can set how many logs display on screen.
-
-```csharp
-        Debuger.FontSize = 20;
-        Debuger.ItemCountOnScreen = 100;
+        Debuger.FontSize = 20;//set size of font
+    }
 ```
+
+
+[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094920.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094920.png)
+
+#### Example3
+
+Use unityengine's Debug.Log, still can record on screen or write into text.
+
+``` csharp
+[SerializeField]
+    private bool _isLogOnText;
+    [SerializeField]
+    private bool _isLogOnScreen;
+    // Use this for initialization
+    void Start()
+    {
+        Debuger.EnableOnText(_isLogOnText);
+        Debuger.EnableOnScreen(_isLogOnScreen);
+
+
+        //unity engine's debug.log
+        for (int i = 0; i < 100; i++)
+        {
+            Debug.Log(i);
+            Debug.LogWarning(i);
+            Debug.LogError(i);
+        }
+    }
+```
+[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_095354.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_095354.png)
 
 
 support: hiramtan@live.com
