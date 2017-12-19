@@ -142,7 +142,7 @@ void Start()
 
 #### Example3
 
-使用 Debug.Log, 仍然可以打印日志到屏幕,或者记录到text.
+使用unity引擎的Debug.Log, 仍然可以打印日志到屏幕,或者记录到text.
 
 ``` csharp
 [SerializeField]
