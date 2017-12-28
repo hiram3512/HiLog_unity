@@ -1,4 +1,4 @@
-#HiDebug_unity
+#HiDebuger_unity
 ----------------------
 
 ### 如何使用
