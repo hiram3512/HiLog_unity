@@ -1,4 +1,4 @@
-#HiDebuger_unity
+#HiDebug_unity
 ----------------------
 [中文说明](https://github.com/hiramtan/HiDebug_unity/blob/master/README_zh.md)
 
