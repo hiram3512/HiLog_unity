@@ -172,7 +172,6 @@ Use unityengine's Debug.Log, still can record on screen or write into text.
 
 support: hiramtan@live.com
 
-qq群:83596104
 
 ***********
 
