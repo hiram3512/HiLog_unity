@@ -19,14 +19,12 @@ public class Example2 : MonoBehaviour
         HiDebug.EnableDebuger(_isLogOn);
         HiDebug.EnableOnText(_isLogOnText);
         HiDebug.EnableOnScreen(_isLogOnScreen);
-
         for (int i = 0; i < 100; i++)
         {
             Debuger.Log(i);
             Debuger.LogWarning(i);
             Debuger.LogError(i);
         }
-
         HiDebug.FontSize = 20;//set size of font
     }
 }

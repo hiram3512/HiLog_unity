@@ -23,13 +23,13 @@
 
 ### Details
 
-1. Logs On Console:
+1. Hidebug's Logs On Console:
 
 ``` csharp
-Debuger.EnableHiDebugLogs(true);
+Hidebug.EnableDebuger(true);
 ```
 
-If you use Debuger.Log or Debuger.LogWarnning or Debuger.LogError print logs, you can disable all of them just set Debuger.EnableHiDebugLogs(false).
+If you use Debuger.Log or Debuger.LogWarnning or Debuger.LogError print logs, you can disable all of them just set Hidebug.EnableDebuger(false).
 
 Also, it will automatically add data and time to your logs.
 
@@ -40,7 +40,7 @@ Of course, you can select don't use this function, and prefer to use unityengine
 2. Logs in text:
 
 ``` csharp
-Debuger.EnableOnText(true);
+Hidebug.EnableOnText(true);
 ```
 
 Will record logs and stacks into a text, the default path is Application.persistentDataPath.
@@ -50,7 +50,7 @@ Will record logs and stacks into a text, the default path is Application.persist
 3. Logs on screen:
 
 ``` csharp
-Debuger.EnableOnScreen(true);
+Hidebug.EnableOnScreen(true);
 ```
 Will display a button on your screen,you can drag this button to anywhere you want(don't cover your game's button)
 
@@ -69,8 +69,11 @@ When you click this button, will open a panel to display logs and stacks.
 ```csharp
 void Start()
     {
-        Use_Debug();
+        HiDebug.EnableOnText(true);
+        HiDebug.EnableOnScreen(true);
+
         Use_Debuger();
+        Use_Debug();
     }
 
     /// <summary>
@@ -81,11 +84,7 @@ void Start()
     {
         //you can set all debuger's out put logs disable just set this value false(pc,android,ios...etc)
         //it's convenient in release mode, just set this false, and in debug mode set this true.
-        Debuger.EnableHiDebugLogs(true);
-        //Debuger.EnableHiDebugLogs(false);
-
-        Debuger.EnableOnText(true);
-        Debuger.EnableOnScreen(true);
+        HiDebug.EnableDebuger(true);
 
         for (int i = 0; i < 100; i++)
         {
@@ -101,9 +100,6 @@ void Start()
     /// </summary>
     void Use_Debug()
     {
-        Debuger.EnableOnText(true);
-        Debuger.EnableOnScreen(true);
-
         for (int i = 0; i < 100; i++)
         {
             Debug.Log(i);
@@ -115,7 +111,7 @@ void Start()
 [![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094412.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094412.png)
 #### Example2
 ``` csharp
-[SerializeField]
+    [SerializeField]
     private bool _isLogOn;//set this value from inspector
     [SerializeField]
     private bool _isLogOnText;
@@ -124,18 +120,16 @@ void Start()
     // Use this for initialization
     void Start()
     {
-        Debuger.EnableHiDebugLogs(_isLogOn);
-        Debuger.EnableOnText(_isLogOnText);
-        Debuger.EnableOnScreen(_isLogOnScreen);
-
+        HiDebug.EnableDebuger(_isLogOn);
+        HiDebug.EnableOnText(_isLogOnText);
+        HiDebug.EnableOnScreen(_isLogOnScreen);
         for (int i = 0; i < 100; i++)
         {
             Debuger.Log(i);
             Debuger.LogWarning(i);
             Debuger.LogError(i);
         }
-
-        Debuger.FontSize = 20;//set size of font
+        HiDebug.FontSize = 20;//set size of font
     }
 ```
 
@@ -147,15 +141,15 @@ void Start()
 Use unityengine's Debug.Log, still can record on screen or write into text.
 
 ``` csharp
-[SerializeField]
+    [SerializeField]
     private bool _isLogOnText;
     [SerializeField]
     private bool _isLogOnScreen;
     // Use this for initialization
     void Start()
     {
-        Debuger.EnableOnText(_isLogOnText);
-        Debuger.EnableOnScreen(_isLogOnScreen);
+        HiDebug.EnableOnText(_isLogOnText);
+        HiDebug.EnableOnScreen(_isLogOnScreen);
 
 
         //unity engine's debug.log

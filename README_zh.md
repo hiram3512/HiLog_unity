@@ -21,13 +21,13 @@
 
 ### 详情
 
-1. 控制台日志:
+1. HiDebug的控制台日志:
 
 ``` csharp
-Debuger.EnableHiDebugLogs(true);
+Hidebug.EnableDebuger(true);
 ```
 
-如果使用Debuger.Log or Debuger.LogWarnning or Debuger.LogError打印日志, 你可以一键关闭这些日志Debuger.EnableHiDebugLogs(false).
+如果使用Debuger.Log or Debuger.LogWarnning or Debuger.LogError打印日志, 你可以一键关闭这些日志Hidebug.EnableDebuger(false).
 
 同时,也会自动将你的日志附加时间戳.
 
@@ -39,7 +39,7 @@ Debuger.EnableHiDebugLogs(true);
 2. 记录日志到text:
 
 ``` csharp
-Debuger.EnableOnText(true);
+Hidebug.EnableOnText(true);
 ```
 将会记录日志和堆栈信息到text,默认路径是Application.persistentDataPath.
 
@@ -48,7 +48,7 @@ Debuger.EnableOnText(true);
 3. 打印日志到屏幕:
 
 ``` csharp
-Debuger.EnableOnScreen(true);
+Hidebug.EnableOnScreen(true);
 ```
 将会显示一个按钮,可以拖拽到任何地方(不遮挡你的游戏按钮的地方)
 
@@ -67,8 +67,11 @@ Debuger.EnableOnScreen(true);
 ```csharp
 void Start()
     {
-        Use_Debug();
+        HiDebug.EnableOnText(true);
+        HiDebug.EnableOnScreen(true);
+
         Use_Debuger();
+        Use_Debug();
     }
 
     /// <summary>
@@ -79,11 +82,7 @@ void Start()
     {
         //you can set all debuger's out put logs disable just set this value false(pc,android,ios...etc)
         //it's convenient in release mode, just set this false, and in debug mode set this true.
-        Debuger.EnableHiDebugLogs(true);
-        //Debuger.EnableHiDebugLogs(false);
-
-        Debuger.EnableOnText(true);
-        Debuger.EnableOnScreen(true);
+        HiDebug.EnableDebuger(true);
 
         for (int i = 0; i < 100; i++)
         {
@@ -99,9 +98,6 @@ void Start()
     /// </summary>
     void Use_Debug()
     {
-        Debuger.EnableOnText(true);
-        Debuger.EnableOnScreen(true);
-
         for (int i = 0; i < 100; i++)
         {
             Debug.Log(i);
@@ -113,7 +109,7 @@ void Start()
 [![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094412.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094412.png)
 #### Example2
 ``` csharp
-[SerializeField]
+    [SerializeField]
     private bool _isLogOn;//set this value from inspector
     [SerializeField]
     private bool _isLogOnText;
@@ -122,18 +118,16 @@ void Start()
     // Use this for initialization
     void Start()
     {
-        Debuger.EnableHiDebugLogs(_isLogOn);
-        Debuger.EnableOnText(_isLogOnText);
-        Debuger.EnableOnScreen(_isLogOnScreen);
-
+        HiDebug.EnableDebuger(_isLogOn);
+        HiDebug.EnableOnText(_isLogOnText);
+        HiDebug.EnableOnScreen(_isLogOnScreen);
         for (int i = 0; i < 100; i++)
         {
             Debuger.Log(i);
             Debuger.LogWarning(i);
             Debuger.LogError(i);
         }
-
-        Debuger.FontSize = 20;//set size of font
+        HiDebug.FontSize = 20;//set size of font
     }
 ```
 
@@ -145,15 +139,15 @@ void Start()
 使用unity引擎的Debug.Log, 仍然可以打印日志到屏幕,或者记录到text.
 
 ``` csharp
-[SerializeField]
+    [SerializeField]
     private bool _isLogOnText;
     [SerializeField]
     private bool _isLogOnScreen;
     // Use this for initialization
     void Start()
     {
-        Debuger.EnableOnText(_isLogOnText);
-        Debuger.EnableOnScreen(_isLogOnScreen);
+        HiDebug.EnableOnText(_isLogOnText);
+        HiDebug.EnableOnScreen(_isLogOnScreen);
 
 
         //unity engine's debug.log
