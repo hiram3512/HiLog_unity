@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class Example4 : MonoBehaviour
 {
-
     // Use this for initialization
     void Start()
     {
-        Debuger.EnableOnScreen(true);
+        HiDebug.EnableOnScreen(true);
     }
 
     private int _index;
@@ -24,17 +23,16 @@ public class Example4 : MonoBehaviour
             _time = 0;
             if (_index % 10 == 0)
             {
-                Debuger.LogError(_index);
+                Debug.LogError(_index);
             }
             else if (_index % 3 == 0)
             {
-                Debuger.LogWarning(_index);
+                Debug.LogWarning(_index);
             }
             else
             {
-                Debuger.Log(_index);
+                Debug.Log(_index);
             }
         }
     }
-
 }

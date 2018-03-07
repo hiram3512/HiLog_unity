@@ -16,9 +16,9 @@ public class Example2 : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Debuger.EnableDebuger(_isLogOn);
-        Debuger.EnableOnText(_isLogOnText);
-        Debuger.EnableOnScreen(_isLogOnScreen);
+        HiDebug.EnableDebuger(_isLogOn);
+        HiDebug.EnableOnText(_isLogOnText);
+        HiDebug.EnableOnScreen(_isLogOnScreen);
 
         for (int i = 0; i < 100; i++)
         {
@@ -27,6 +27,6 @@ public class Example2 : MonoBehaviour
             Debuger.LogError(i);
         }
 
-        Debuger.FontSize = 20;//set size of font
+        HiDebug.FontSize = 20;//set size of font
     }
 }

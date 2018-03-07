@@ -10,8 +10,11 @@ public class Example1 : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Use_Debug();
+        HiDebug.EnableOnText(true);
+        HiDebug.EnableOnScreen(true);
+
         Use_Debuger();
+        Use_Debug();
     }
 
     /// <summary>
@@ -22,11 +25,7 @@ public class Example1 : MonoBehaviour
     {
         //you can set all debuger's out put logs disable just set this value false(pc,android,ios...etc)
         //it's convenient in release mode, just set this false, and in debug mode set this true.
-        Debuger.EnableDebuger(true);
-        
-
-        Debuger.EnableOnText(true);
-        Debuger.EnableOnScreen(true);
+        HiDebug.EnableDebuger(true);
 
         for (int i = 0; i < 100; i++)
         {
@@ -42,9 +41,6 @@ public class Example1 : MonoBehaviour
     /// </summary>
     void Use_Debug()
     {
-        Debuger.EnableOnText(true);
-        Debuger.EnableOnScreen(true);
-
         for (int i = 0; i < 100; i++)
         {
             Debug.Log(i);

@@ -14,8 +14,8 @@ public class Example3 : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Debuger.EnableOnText(_isLogOnText);
-        Debuger.EnableOnScreen(_isLogOnScreen);
+        HiDebug.EnableOnText(_isLogOnText);
+        HiDebug.EnableOnScreen(_isLogOnScreen);
 
 
         //unity engine's debug.log
