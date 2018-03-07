@@ -22,8 +22,8 @@ public class Example1 : MonoBehaviour
     {
         //you can set all debuger's out put logs disable just set this value false(pc,android,ios...etc)
         //it's convenient in release mode, just set this false, and in debug mode set this true.
-        Debuger.EnableHiDebugLogs(true);
-        //Debuger.EnableHiDebugLogs(false);
+        Debuger.EnableDebuger(true);
+        
 
         Debuger.EnableOnText(true);
         Debuger.EnableOnScreen(true);

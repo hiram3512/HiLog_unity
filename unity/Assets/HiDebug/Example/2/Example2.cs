@@ -16,7 +16,7 @@ public class Example2 : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Debuger.EnableHiDebugLogs(_isLogOn);
+        Debuger.EnableDebuger(_isLogOn);
         Debuger.EnableOnText(_isLogOnText);
         Debuger.EnableOnScreen(_isLogOnScreen);
 
