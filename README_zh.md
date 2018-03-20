@@ -161,10 +161,9 @@ void Start()
 ```
 [![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_095354.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_095354.png)
 
+点击链接加入QQ群【83596104】：https://jq.qq.com/?_wv=1027&k=5l6rZEr
 
 support: hiramtan@live.com
-
-qq群:83596104
 
 ***********
 
