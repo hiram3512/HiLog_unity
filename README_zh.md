@@ -31,7 +31,7 @@ Hidebug.EnableDebuger(true);
 
 同时,也会自动将你的日志附加时间戳.
 
-[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_223835.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_223835.png)
+[![](https://i.imgur.com/9qjXKea.png)](https://i.imgur.com/9qjXKea.png)
 
 当然你倾向使用unity引擎的Debug.Log打印日志,这些日志同样可以打印在屏幕上或记录到txt中.
 
@@ -43,7 +43,7 @@ Hidebug.EnableOnText(true);
 ```
 将会记录日志和堆栈信息到text,默认路径是Application.persistentDataPath.
 
-[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_225219.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_225219.png)
+[![](https://imgur.com/AaGtUT4)](https://imgur.com/AaGtUT4)
 
 3. 打印日志到屏幕:
 
@@ -106,7 +106,7 @@ void Start()
         }
     }
 ```
-[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094412.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094412.png)
+[![](https://i.imgur.com/8TPMvcW.png)](https://i.imgur.com/8TPMvcW.png)
 #### Example2
 ``` csharp
     [SerializeField]
@@ -132,7 +132,7 @@ void Start()
 ```
 
 
-[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094920.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094920.png)
+[![](https://i.imgur.com/EgvKDUn.png)](https://i.imgur.com/EgvKDUn.png)
 
 #### Example3
 
@@ -159,7 +159,7 @@ void Start()
         }
     }
 ```
-[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_095354.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_095354.png)
+[![](https://i.imgur.com/95Wcmqx.png)](https://i.imgur.com/95Wcmqx.png)
 
 点击链接加入QQ群【83596104】：https://jq.qq.com/?_wv=1027&k=5l6rZEr
 
