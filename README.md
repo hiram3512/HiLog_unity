@@ -33,7 +33,7 @@ If you use Debuger.Log or Debuger.LogWarnning or Debuger.LogError print logs, yo
 
 Also, it will automatically add data and time to your logs.
 
-[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_223835.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_223835.png)
+[![](https://i.imgur.com/9qjXKea.png)](https://i.imgur.com/9qjXKea.png)
 
 Of course, you can select don't use this function, and prefer to use unityengine's Debug.Log, those logs can also display on screen or write into text.
 
@@ -45,7 +45,7 @@ Hidebug.EnableOnText(true);
 
 Will record logs and stacks into a text, the default path is Application.persistentDataPath.
 
-[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_225219.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-18_225219.png)
+[![](https://imgur.com/AaGtUT4)](https://imgur.com/AaGtUT4)
 
 3. Logs on screen:
 
@@ -62,7 +62,7 @@ When you click this button, will open a panel to display logs and stacks.
 >- Close this panel back to your game display.
 >- Set font size display on screen.
 
-[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/ezgif-5-9829fc97d6.gif)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/ezgif-5-9829fc97d6.gif)
+[![](https://i.imgur.com/AdoD6UA.gif)](https://i.imgur.com/AdoD6UA.gif)
 
 ----------
 #### Example1
@@ -108,7 +108,7 @@ void Start()
         }
     }
 ```
-[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094412.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094412.png)
+[![](https://i.imgur.com/8TPMvcW.png)](https://i.imgur.com/8TPMvcW.png)
 #### Example2
 ``` csharp
     [SerializeField]
@@ -134,7 +134,7 @@ void Start()
 ```
 
 
-[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094920.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_094920.png)
+[![](https://i.imgur.com/EgvKDUn.png)](https://i.imgur.com/EgvKDUn.png)
 
 #### Example3
 
@@ -161,7 +161,7 @@ Use unityengine's Debug.Log, still can record on screen or write into text.
         }
     }
 ```
-[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_095354.png)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/2017-12-19_095354.png)
+[![](https://i.imgur.com/95Wcmqx.png)](https://i.imgur.com/95Wcmqx.png)
 
 
 support: hiramtan@live.com
