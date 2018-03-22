@@ -60,7 +60,7 @@ Hidebug.EnableOnScreen(true);
 >- 关闭日志展示面板
 >- 设置屏幕上字体大小.
 
-[![](https://github.com/hiramtan/HiDebug_unity/blob/master/others/ezgif-5-9829fc97d6.gif)](https://github.com/hiramtan/HiDebug_unity/blob/master/others/ezgif-5-9829fc97d6.gif)
+[![](https://imgur.com/AdoD6UA)](https://imgur.com/AdoD6UA)
 
 ----------
 #### Example1
