@@ -1,19 +1,15 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace HiLog
+namespace UnityLogHelper
 {
-    public partial class LogView : MonoBehaviour
+    internal partial class LogView : MonoBehaviour
     {
         private enum EDisplay
         {
             Button,
             Panel,
         }
-
-        private float _buttonWidth = 0.2f;
-        private float _buttonHeight = 0.1f;
-        private float _panelHeight = 0.7f;
 
         private EDisplay _eDisplay = EDisplay.Button;
 
@@ -27,6 +23,20 @@ namespace HiLog
             {
                 Panel();
             }
+        }
+
+        GUIStyle GetGUISkin(GUIStyle guiStyle, Color color, TextAnchor style)
+        {
+            guiStyle.normal.textColor = color;
+            guiStyle.hover.textColor = color;
+            guiStyle.active.textColor = color;
+            guiStyle.onNormal.textColor = color;
+            guiStyle.onHover.textColor = color;
+            guiStyle.onActive.textColor = color;
+            guiStyle.margin = new RectOffset(0, 0, 0, 0);
+            guiStyle.alignment = style;
+            guiStyle.fontSize = HiLog.FontSizeOnScreen;
+            return guiStyle;
         }
     }
 }
