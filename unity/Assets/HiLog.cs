@@ -13,7 +13,7 @@ public static class HiLog
     /// <summary>
     /// Set screen log's font size
     /// </summary>
-    public static int FontSizeOnScreen = 1;
+    public static int FontSizeOnScreen = (int)(UnityEngine.Screen.width * 0.02f);
 
     /// <summary>
     /// Set if log is on
@@ -70,7 +70,7 @@ public static class HiLog
     {
         if (_logView != null)
         {
-            _logView.NewLog(new LogViewInfo(condition, stackTrace, type));
+            _logView.NewLog(new LogInfo(condition, stackTrace, type));
         }
     }
 }
