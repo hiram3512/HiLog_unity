@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Debuger.cs" />
-    <Compile Include="HiDebug.cs" />
+    <Compile Include="HiLog.cs" />
     <Compile Include="HiDebugView.cs" />
     <Compile Include="HiDebugView_Button.cs" />
     <Compile Include="HiDebugView_Panel.cs" />

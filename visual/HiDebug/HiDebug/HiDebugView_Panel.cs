@@ -19,7 +19,7 @@ public partial class HiDebugView : MonoBehaviour
         if (_eDisplay != EDisplay.Panel)
             return;
 
-        GUI.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiDebug", GetGUISkin(GUI.skin.window, Color.white, TextAnchor.UpperCenter));
+        GUI.Window(0, new Rect(0, 0, Screen.width, Screen.height * _panelHeight), LogWindow, "HiLog", GetGUISkin(GUI.skin.window, Color.white, TextAnchor.UpperCenter));
         GUI.Window(1, new Rect(0, Screen.height * _panelHeight, Screen.width, Screen.height * (1 - _panelHeight)), StackWindow, "Stack", GetGUISkin(GUI.skin.window, Color.white, TextAnchor.UpperCenter));
     }
     private Vector2 _scrollLogPosition;
@@ -109,7 +109,7 @@ public partial class HiDebugView : MonoBehaviour
         guiStyle.onActive.textColor = color;
         guiStyle.margin = new RectOffset(0, 0, 0, 0);
         guiStyle.alignment = style;
-        guiStyle.fontSize = HiDebug.FontSize;
+        guiStyle.fontSize = HiLog.FontSize;
         return guiStyle;
     }
 

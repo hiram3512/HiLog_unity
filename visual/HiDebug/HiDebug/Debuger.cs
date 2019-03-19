@@ -10,7 +10,7 @@ public static class Debuger
 {
     public static void Log(object obj)
     {
-        if (HiDebug._isOnConsole)
+        if (HiLog._isConsoleLogOn)
         {
             var log = string.Format(GetTime(), obj);
             log = "<color=white>" + log + "</color>";
@@ -20,7 +20,7 @@ public static class Debuger
 
     public static void LogWarning(object obj)
     {
-        if (HiDebug._isOnConsole)
+        if (HiLog._isConsoleLogOn)
         {
             var log = string.Format(GetTime(), obj);
             log = "<color=yellow>" + log + "</color>";
@@ -30,7 +30,7 @@ public static class Debuger
 
     public static void LogError(object obj)
     {
-        if (HiDebug._isOnConsole)
+        if (HiLog._isConsoleLogOn)
         {
             var log = string.Format(GetTime(), obj);
             log = "<color=red>" + log + "</color>";
