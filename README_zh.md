@@ -23,6 +23,7 @@ dll下载链接 [![Github Releases](https://img.shields.io/github/downloads/atom
 ![2017-12-18_223835](others/2017-12-18_223835.png)
 ![Image15](others/Image15.png)
 ![Image17](others/Image17.png)
+![Image18](others/Image18.png)
 
 -------------------
 
