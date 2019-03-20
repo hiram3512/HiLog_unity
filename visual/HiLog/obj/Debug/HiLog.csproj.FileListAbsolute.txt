@@ -1,0 +1,8 @@
+D:\MyGit\github\HiLog_unity\HiLog\HiLog\bin\Debug\HiLog.dll
+D:\MyGit\github\HiLog_unity\HiLog\HiLog\bin\Debug\HiLog.pdb
+D:\MyGit\github\HiLog_unity\HiLog\HiLog\bin\Debug\UnityEngine.dll
+D:\MyGit\github\HiLog_unity\HiLog\HiLog\obj\Debug\HiLog.csprojAssemblyReference.cache
+D:\MyGit\github\HiLog_unity\HiLog\HiLog\obj\Debug\HiLog.csproj.CoreCompileInputs.cache
+D:\MyGit\github\HiLog_unity\HiLog\HiLog\obj\Debug\HiLog.csproj.CopyComplete
+D:\MyGit\github\HiLog_unity\HiLog\HiLog\obj\Debug\HiLog.dll
+D:\MyGit\github\HiLog_unity\HiLog\HiLog\obj\Debug\HiLog.pdb

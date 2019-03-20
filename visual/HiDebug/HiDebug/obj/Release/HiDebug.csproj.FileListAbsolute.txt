@@ -1,7 +1,0 @@
-D:\MyGit\gitee\HiDebug_unity\visual\HiDebug\HiDebug\bin\Release\HiDebug.dll
-D:\MyGit\gitee\HiDebug_unity\visual\HiDebug\HiDebug\bin\Release\HiDebug.pdb
-D:\MyGit\gitee\HiDebug_unity\visual\HiDebug\HiDebug\bin\Release\UnityEngine.dll
-D:\MyGit\gitee\HiDebug_unity\visual\HiDebug\HiDebug\obj\Release\HiDebug.csproj.CoreCompileInputs.cache
-D:\MyGit\gitee\HiDebug_unity\visual\HiDebug\HiDebug\obj\Release\HiDebug.dll
-D:\MyGit\gitee\HiDebug_unity\visual\HiDebug\HiDebug\obj\Release\HiDebug.pdb
-D:\MyGit\gitee\HiDebug_unity\visual\HiDebug\HiDebug\obj\Release\HiDebug.csprojResolveAssemblyReference.cache
