@@ -1,171 +1,75 @@
-# HiDebug_unity
+# HiLog_unity
 ----------------------
-[中文说明](https://github.com/hiramtan/HiDebug_unity/blob/master/README_zh.md)
 
-
-### How to use
- You can download unity package from here: [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiDebug_unity/releases)
-
- or you can download from unity asset store: [https://www.assetstore.unity3d.com/en/#!/content/104658](https://www.assetstore.unity3d.com/en/#!/content/104658)
-
----------
-
-### Features
-
->- Support multiple platform(unity editor, exe, Android, iOS, WP...).
->- Enable or disable all logs in one switch(debug mode set true let logs on, release mode set false disable all logs out put).
->- Whether enable logs on screen(so that you can still check logs if you don't want to connect Android Studio or xcode)
->- Whether enable write logs into a text(default path is persistent folder, when crash can check logs in text)
->- Adding data and time append to you logs.
->- Display stack on screen or record stack in text.
->- There is only a DLL, you can copy this to your project to use whole functionality
-
-
-### Details
-
-1. Hidebug's Logs On Console:
-
-``` csharp
-Hidebug.EnableDebuger(true);
-```
-
-If you use Debuger.Log or Debuger.LogWarnning or Debuger.LogError print logs, you can disable all of them just set Hidebug.EnableDebuger(false).
-
-Also, it will automatically add data and time to your logs.
-
-[![](https://i.imgur.com/9qjXKea.png)](https://i.imgur.com/9qjXKea.png)
-
-Of course, you can select don't use this function, and prefer to use unityengine's Debug.Log, those logs can also display on screen or write into text.
-
-2. Logs in text:
-
-``` csharp
-Hidebug.EnableOnText(true);
-```
-
-Will record logs and stacks into a text, the default path is Application.persistentDataPath.
-
-[![](https://imgur.com/AaGtUT4)](https://imgur.com/AaGtUT4)
-
-3. Logs on screen:
-
-``` csharp
-Hidebug.EnableOnScreen(true);
-```
-Will display a button on your screen,you can drag this button to anywhere you want(don't cover your game's button)
-
-When you click this button, will open a panel to display logs and stacks.
-
->- Click per out put log to select to show its stack.
->- Toggle log or warnning or error to select only display this kind of logs.
->- Clear all logs on screen.
->- Close this panel back to your game display.
->- Set font size display on screen.
-
-[![](https://i.imgur.com/AdoD6UA.gif)](https://i.imgur.com/AdoD6UA.gif)
-
-----------
-#### Example1
+### 如何使用
+HiLog对原有项目没有任何影响，只需要添加一句逻辑便可以开启HiLog的所有功能。
 ```csharp
-void Start()
-    {
-        HiDebug.EnableOnText(true);
-        HiDebug.EnableOnScreen(true);
-
-        Use_Debuger();
-        Use_Debug();
-    }
-
-    /// <summary>
-    /// use debuger, you can enable or disable logs just one switch
-    /// and also it automatically add time to your logs 
-    /// </summary>
-    void Use_Debuger()
-    {
-        //you can set all debuger's out put logs disable just set this value false(pc,android,ios...etc)
-        //it's convenient in release mode, just set this false, and in debug mode set this true.
-        HiDebug.EnableDebuger(true);
-
-        for (int i = 0; i < 100; i++)
-        {
-            Debuger.Log(i);
-            Debuger.LogWarning(i);
-            Debuger.LogError(i);
-        }
-    }
-
-    /// <summary>
-    /// if you donnt want use Debuger.Log()/Debuger.LogWarnning()/Debuger.LogError()
-    /// you can still let UnityEngine's Debug on your screen or write them into text
-    /// </summary>
-    void Use_Debug()
-    {
-        for (int i = 0; i < 100; i++)
-        {
-            Debug.Log(i);
-            Debug.LogWarning(i);
-            Debug.LogError(i);
-        }
-    }
+HiLog.SetOn(true);
 ```
-[![](https://i.imgur.com/8TPMvcW.png)](https://i.imgur.com/8TPMvcW.png)
-#### Example2
-``` csharp
-    [SerializeField]
-    private bool _isLogOn;//set this value from inspector
-    [SerializeField]
-    private bool _isLogOnText;
-    [SerializeField]
-    private bool _isLogOnScreen;
+所有的功能仅在一个dll文件中，下载后复制到自己的项目中即可
+
+dll下载链接 [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiLog_unity/releases)
+
+或者从unity asset store下载:[https://www.assetstore.unity3d.com/en/#!/content/104658](https://www.assetstore.unity3d.com/en/#!/content/104658)
+
+### 功能说明
+>- 支持多平台(unity editor, exe, Android, iOS, WP...)
+>- 日志添加时间戳，虽然新版unity日志具有时间戳功能，但是只是针对编辑器，HiLog所有日志全部添加时间戳功能。
+>- 记录日志到text文件中（文件路径在persistentdatapath）
+>- 是否将日志打印到屏幕(即便不连接Android studio,xcode也可以查看日志)
+>- 屏幕显示堆栈信息或记录堆栈信息到text.
+>- 插件小巧,所有功能都在一个dll中,可以直接复制到工程使用,与原有项目无耦合.
+
+### 截图说明
+![ezgif-5-9829fc97d6](others/ezgif-5-9829fc97d6.gif)
+![2017-12-18_223835](others/2017-12-18_223835.png)
+![Image15](others/Image15.png)
+![Image17](others/Image17.png)
+
+-------------------
+
+### 详情
+
+如果在unity5.x和之前的版本中使用,从此出下载：[https://github.com/hiramtan/HiLog_unity/tree/branch_5.x](https://github.com/hiramtan/HiLog_unity/tree/branch_5.x)
+
+将会记录日志和堆栈信息到text,默认路径是Application.persistentDataPath.
+
+打印日志到屏幕:将会显示一个按钮,可以拖拽到任何地方(不遮挡你的游戏按钮的地方)
+
+当点击这个按钮,将会弹出一个面板展示日志和堆栈.
+
+>- 点击每一条日志可以显示其堆栈信息.
+>- 勾选 log 或 warnning 或 error 只显示此类型的日志.
+>- 清空屏幕上的所有日志.
+>- 关闭日志展示面板
+>- 设置屏幕上字体大小.
+
+Example：
+```csharp
+public class Example : MonoBehaviour
+{
     // Use this for initialization
     void Start()
     {
-        HiDebug.EnableDebuger(_isLogOn);
-        HiDebug.EnableOnText(_isLogOnText);
-        HiDebug.EnableOnScreen(_isLogOnScreen);
-        for (int i = 0; i < 100; i++)
-        {
-            Debuger.Log(i);
-            Debuger.LogWarning(i);
-            Debuger.LogError(i);
-        }
-        HiDebug.FontSize = 20;//set size of font
+        HiLog.SetOn(true);
+        Log();
     }
-```
 
-
-[![](https://i.imgur.com/EgvKDUn.png)](https://i.imgur.com/EgvKDUn.png)
-
-#### Example3
-
-Use unityengine's Debug.Log, still can record on screen or write into text.
-
-``` csharp
-    [SerializeField]
-    private bool _isLogOnText;
-    [SerializeField]
-    private bool _isLogOnScreen;
-    // Use this for initialization
-    void Start()
+    void Log()
     {
-        HiDebug.EnableOnText(_isLogOnText);
-        HiDebug.EnableOnScreen(_isLogOnScreen);
-
-
-        //unity engine's debug.log
-        for (int i = 0; i < 100; i++)
-        {
-            Debug.Log(i);
-            Debug.LogWarning(i);
-            Debug.LogError(i);
-        }
+        Debug.Log("this is from start");
+        Debug.LogWarning(456);
+        Debug.LogError(789);
     }
+}
 ```
-[![](https://i.imgur.com/95Wcmqx.png)](https://i.imgur.com/95Wcmqx.png)
 
+
+
+
+点击链接加入QQ群【83596104】：https://jq.qq.com/?_wv=1027&k=5l6rZEr
 
 support: hiramtan@live.com
-
 
 ***********
 
@@ -190,3 +94,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+
+### 如何使用
+1. 
+

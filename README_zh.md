@@ -30,7 +30,7 @@ dll下载链接 [![Github Releases](https://img.shields.io/github/downloads/atom
 
 ### 详情
 
-如果在unity5.x和之前的版本中使用,从此出下载：[https://www.assetstore.unity3d.com/en/#!/content/104658](https://www.assetstore.unity3d.com/en/#!/content/104658)
+如果在unity5.x和之前的版本中使用,从此出下载：[https://github.com/hiramtan/HiLog_unity/tree/branch_5.x](https://github.com/hiramtan/HiLog_unity/tree/branch_5.x)
 
 将会记录日志和堆栈信息到text,默认路径是Application.persistentDataPath.
 
