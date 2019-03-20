@@ -70,7 +70,8 @@ public static class HiLog
     {
         if (_logView != null)
         {
-            _logView.NewLog(new LogInfo(condition, stackTrace, type));
+            var timeInfo = string.Format("[{0}]", GetTime());
+            _logView.NewLog(new LogInfo(timeInfo + condition, stackTrace, type));
         }
     }
 }
