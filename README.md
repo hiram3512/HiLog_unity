@@ -1,6 +1,8 @@
 # HiLog_unity
 ----------------------
 
+[中文说明](https://github.com/hiramtan/HiLog_unity/blob/master/README_zh.md)
+
 ### How to use
 HiLog have nothing intrusion with your project, and only add one line code then all functionality execute.
 ```csharp
