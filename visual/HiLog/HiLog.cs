@@ -26,6 +26,7 @@ public static class HiLog
     /// <param name="isOn"></param>
     public static void SetOn(bool isOn)
     {
+        Debug.Log(string.Format("HiLog's file is here[{0}]", Application.persistentDataPath));
         _logView = new GameObject("HiLog").AddComponent<LogView>();
         Application.logMessageReceivedThreaded += LogCallback;
     }
@@ -55,11 +56,7 @@ public static class HiLog
         var typeInfo = string.Format("[{0}]", type.ToString());
         var timeInfo = string.Format("[{0}]", GetTime());
         var log = typeInfo + timeInfo + condition;
-#if UNITY_EDITOR
-        var path = Application.dataPath + "/HiLog.txt";
-#else
         var path = Application.persistentDataPath + "/HiLog.txt";
-#endif
         var sw = File.AppendText(path);
         sw.WriteLine(log + "\n" + stackTrace);
         sw.Close();
