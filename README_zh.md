@@ -10,8 +10,6 @@ HiLog.SetOn(true);
 
 dll下载链接 [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiLog_unity/releases)
 
-或者从unity asset store下载:[https://www.assetstore.unity3d.com/en/#!/content/104658](https://www.assetstore.unity3d.com/en/#!/content/104658)
-
 ### 功能说明
 >- 支持多平台(unity editor, exe, Android, iOS, WP...)
 >- 日志添加时间戳，虽然新版unity日志具有时间戳功能，但是只是针对编辑器，HiLog所有日志全部添加时间戳功能。
@@ -30,7 +28,7 @@ dll下载链接 [![Github Releases](https://img.shields.io/github/downloads/atom
 
 ### 详情
 
-如果在unity5.x和之前的版本中使用,从此出下载：[https://github.com/hiramtan/HiLog_unity/tree/branch_5.x](https://github.com/hiramtan/HiLog_unity/tree/branch_5.x)
+如果在unity5.x和之前的版本中使用,从此处下载：[https://github.com/hiramtan/HiLog_unity/tree/Branch_2.4.1](https://github.com/hiramtan/HiLog_unity/tree/Branch_2.4.1)
 
 将会记录日志和堆栈信息到text,默认路径是Application.persistentDataPath.
 
@@ -58,8 +56,8 @@ public class Example : MonoBehaviour
     void Log()
     {
         Debug.Log("this is from start");
-        Debug.LogWarning(456);
-        Debug.LogError(789);
+        Debug.LogWarning(123);
+        Debug.LogError(456);
     }
 }
 ```

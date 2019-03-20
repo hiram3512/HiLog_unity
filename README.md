@@ -1,26 +1,24 @@
 # HiLog_unity
 ----------------------
 
-### 如何使用
-HiLog对原有项目没有任何影响，只需要添加一句逻辑便可以开启HiLog的所有功能。
+### How to use
+HiLog have nothing intrusion with your project, and only add one line code then all functionality execute.
 ```csharp
 HiLog.SetOn(true);
 ```
-所有的功能仅在一个dll文件中，下载后复制到自己的项目中即可
+All functions is centralized in one dll file, just download and copy into your project.
 
-dll下载链接 [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiLog_unity/releases)
+dll download link [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiLog_unity/releases)
 
-或者从unity asset store下载:[https://www.assetstore.unity3d.com/en/#!/content/104658](https://www.assetstore.unity3d.com/en/#!/content/104658)
+### Functionality
+>- Support all platforms(unity editor, exe, Android, iOS, WP...)
+>- Add timestamp with user's log(despite new version of unity have this function but it can only in editor platform)
+>- Write logs into text file.（path is: application.persistentdatapath）
+>- Display logs on screen(can quickly check logs and event have not connect Android studio,xcode)
+>- Display stacks and write stacks into text.
+>- Only one file and have no relevance with your project
 
-### 功能说明
->- 支持多平台(unity editor, exe, Android, iOS, WP...)
->- 日志添加时间戳，虽然新版unity日志具有时间戳功能，但是只是针对编辑器，HiLog所有日志全部添加时间戳功能。
->- 记录日志到text文件中（文件路径在persistentdatapath）
->- 是否将日志打印到屏幕(即便不连接Android studio,xcode也可以查看日志)
->- 屏幕显示堆栈信息或记录堆栈信息到text.
->- 插件小巧,所有功能都在一个dll中,可以直接复制到工程使用,与原有项目无耦合.
-
-### 截图说明
+### Screenshot
 ![ezgif-5-9829fc97d6](others/ezgif-5-9829fc97d6.gif)
 ![2017-12-18_223835](others/2017-12-18_223835.png)
 ![Image15](others/Image15.png)
@@ -28,21 +26,20 @@ dll下载链接 [![Github Releases](https://img.shields.io/github/downloads/atom
 
 -------------------
 
-### 详情
+### Details
 
-如果在unity5.x和之前的版本中使用,从此出下载：[https://github.com/hiramtan/HiLog_unity/tree/branch_5.x](https://github.com/hiramtan/HiLog_unity/tree/branch_5.x)
+If you use unity5.x and old version you can download from here[https://github.com/hiramtan/HiLog_unity/tree/Branch_2.4.1](https://github.com/hiramtan/HiLog_unity/tree/Branch_2.4.1)
 
-将会记录日志和堆栈信息到text,默认路径是Application.persistentDataPath.
+Will write logs and stacks into text and path is Application.persistentDataPath.
 
-打印日志到屏幕:将会显示一个按钮,可以拖拽到任何地方(不遮挡你的游戏按钮的地方)
+Display logs on screen, will draw a button and you can drag this button to any position on your screen(don't cover your game)
+When click this button then popup a panel to display logs and stacks
 
-当点击这个按钮,将会弹出一个面板展示日志和堆栈.
-
->- 点击每一条日志可以显示其堆栈信息.
->- 勾选 log 或 warnning 或 error 只显示此类型的日志.
->- 清空屏幕上的所有日志.
->- 关闭日志展示面板
->- 设置屏幕上字体大小.
+>- Click every log will show it's stacks.
+>- Toggle log or warnning or error can only display this type of logs.
+>- Clear all logs on screed.
+>- Close logs panel
+>- Set font size on screen.
 
 Example：
 ```csharp
@@ -64,10 +61,6 @@ public class Example : MonoBehaviour
 }
 ```
 
-
-
-
-点击链接加入QQ群【83596104】：https://jq.qq.com/?_wv=1027&k=5l6rZEr
 
 support: hiramtan@live.com
 
