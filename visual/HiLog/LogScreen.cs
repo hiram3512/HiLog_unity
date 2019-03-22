@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace UnityLogHelper
 {
-    internal partial class LogView : MonoBehaviour
+    internal partial class LogScreen : MonoBehaviour
     {
         private enum EDisplay
         {

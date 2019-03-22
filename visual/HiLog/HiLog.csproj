@@ -43,10 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HiLog.cs" />
-    <Compile Include="LogInfo.cs" />
-    <Compile Include="LogView.cs" />
-    <Compile Include="LogViewButton.cs" />
-    <Compile Include="LogViewPanel.cs" />
+    <Compile Include="LogScreenInfo.cs" />
+    <Compile Include="LogScreen.cs" />
+    <Compile Include="LogScreenButton.cs" />
+    <Compile Include="LogScreenPanel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace UnityLogHelper
 {
-    internal partial class LogView
+    internal partial class LogScreen
     {
         private enum EMouse
         {

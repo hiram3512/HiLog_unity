@@ -4,11 +4,12 @@
  *******************************************************************/
 
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 namespace UnityLogHelper
 {
-    internal partial class LogView
+    internal partial class LogScreen
     {
         private bool _isLogOn = true;
         private bool _isWarnningOn = true;
@@ -16,11 +17,11 @@ namespace UnityLogHelper
         private float _panelHeight = 0.7f;
         private Vector2 _scrollLogPosition;
         private Vector2 _scrollStackPosition;
-        private LogInfo _currentSelectedLogInfo;
-        private List<LogInfo> _logInfos = new List<LogInfo>();
-        public void NewLog(LogInfo log)
+        private LogScreenInfo _currentSelectedLogScreenInfo;
+        private List<LogScreenInfo> _logInfos = new List<LogScreenInfo>();
+        public void NewLog(LogScreenInfo logScreen)
         {
-            _logInfos.Add(log);
+            _logInfos.Add(logScreen);
         }
 
         void Panel()
@@ -33,8 +34,12 @@ namespace UnityLogHelper
         {
             if (GUI.Button(new Rect(0, 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Clear", GetGUISkin(GUI.skin.button, Color.white, TextAnchor.MiddleCenter)))
             {
-                _currentSelectedLogInfo = null;
+                _currentSelectedLogScreenInfo = null;
                 _logInfos.Clear();
+                if (File.Exists(HiLog.HiLogTextPath))
+                {
+                    File.Delete(HiLog.HiLogTextPath);
+                }
             }
             if (GUI.Button(new Rect(Screen.width * (1 - _buttonWidth), 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Close", GetGUISkin(GUI.skin.button, Color.white, TextAnchor.MiddleCenter)))
             {
@@ -75,7 +80,7 @@ namespace UnityLogHelper
                 }
                 if (GUILayout.Button(_logInfos[i].Condition, GetGUISkin(GUI.skin.button, GetColor(_logInfos[i].Type), TextAnchor.MiddleLeft)))
                 {
-                    _currentSelectedLogInfo = _logInfos[i];
+                    _currentSelectedLogScreenInfo = _logInfos[i];
                 }
             }
         }
@@ -88,12 +93,12 @@ namespace UnityLogHelper
 
         void StackItem()
         {
-            if (_currentSelectedLogInfo == null)
+            if (_currentSelectedLogScreenInfo == null)
                 return;
-            var strs = _currentSelectedLogInfo.StackTrace.Split('\n');
+            var strs = _currentSelectedLogScreenInfo.StackTrace.Split('\n');
             for (int i = 0; i < strs.Length; i++)
             {
-                GUILayout.Label(strs[i], GetGUISkin(GUI.skin.label, GetColor(_currentSelectedLogInfo.Type), TextAnchor.MiddleLeft));
+                GUILayout.Label(strs[i], GetGUISkin(GUI.skin.label, GetColor(_currentSelectedLogScreenInfo.Type), TextAnchor.MiddleLeft));
             }
         }
 
