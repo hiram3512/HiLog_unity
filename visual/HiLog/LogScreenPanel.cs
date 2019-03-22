@@ -38,7 +38,7 @@ namespace UnityLogHelper
                 _logInfos.Clear();
                 if (File.Exists(HiLog.HiLogTextPath))
                 {
-                    File.Delete(HiLog.HiLogTextPath);
+                    File.WriteAllText(HiLog.HiLogTextPath, string.Empty);
                 }
             }
             if (GUI.Button(new Rect(Screen.width * (1 - _buttonWidth), 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Close", GetGUISkin(GUI.skin.button, Color.white, TextAnchor.MiddleCenter)))
