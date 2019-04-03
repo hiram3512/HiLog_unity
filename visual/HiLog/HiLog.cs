@@ -28,9 +28,12 @@ public static class HiLog
     /// <param name="isOn"></param>
     public static void SetOn(bool isOn)
     {
-        Debug.Log(string.Format("HiLog's file is here[{0}]", Application.persistentDataPath));
-        _logScreen = new GameObject("HiLog").AddComponent<LogScreen>();
-        Application.logMessageReceivedThreaded += LogCallback;
+        if (isOn)
+        {
+            Debug.Log(string.Format("HiLog's file is here[{0}]", Application.persistentDataPath));
+            _logScreen = new GameObject("HiLog").AddComponent<LogScreen>();
+            Application.logMessageReceivedThreaded += LogCallback;
+        }
     }
 
 
