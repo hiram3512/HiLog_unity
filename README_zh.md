@@ -1,5 +1,6 @@
 # HiLog_unity
 ----------------------
+![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)   [![GitHub release](https://img.shields.io/github/release/hiramtan/HiLog_unity.svg)](https://github.com/hiramtan/HiLog_unity/releases)
 
 ### 如何使用
 HiLog对原有项目没有任何影响，只需要添加一句逻辑便可以开启HiLog的所有功能。
