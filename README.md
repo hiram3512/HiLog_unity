@@ -1,6 +1,8 @@
 # HiLog_unity
 ----------------------
 
+![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)   [![GitHub release](https://img.shields.io/github/release/hiramtan/HiLog_unity.svg)](https://github.com/hiramtan/HiLog_unity/releases)
+
 [中文说明](https://github.com/hiramtan/HiLog_unity/blob/master/README_zh.md)
 
 ### How to use
