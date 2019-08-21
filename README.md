@@ -6,14 +6,15 @@
 [中文说明](https://github.com/hiramtan/HiLog_unity/blob/master/README_zh.md)
 
 ### How to use
-HiLog have nothing intrusion with your project, and only add one line code then all functionality execute.
+
 ```csharp
 HiLog.SetOn(true);
 ```
-All functions is centralized in one dll file, just download and copy into your project.
+HiLog have nothing intrusion with your project, and only add one line code then all functionality execute.
 
-dll download link [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiLog_unity/releases)
+All functions is centralized in one dll file, just download and copy into your project. [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiLog_unity/releases)
 
+------------
 ### Functionality
 >- Support all platforms(unity editor, exe, Android, iOS, WP...)
 >- Add timestamp with user's log(despite new version of unity have this function but it can only in editor platform)
