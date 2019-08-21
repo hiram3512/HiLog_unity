@@ -3,13 +3,15 @@
 ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)   [![GitHub release](https://img.shields.io/github/release/hiramtan/HiLog_unity.svg)](https://github.com/hiramtan/HiLog_unity/releases)
 
 ### 如何使用
-HiLog对原有项目没有任何影响，只需要添加一句逻辑便可以开启HiLog的所有功能。
+
 ```csharp
 HiLog.SetOn(true);
 ```
-所有的功能仅在一个dll文件中，下载后复制到自己的项目中即可
+HiLog对原有项目没有任何影响，只需要添加一句逻辑便可以开启HiLog的所有功能。
 
-dll下载链接 [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiLog_unity/releases)
+所有的功能仅在一个dll文件中，下载后复制到自己的项目中即可 [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiLog_unity/releases)
+
+------------
 
 ### 功能说明
 >- 支持多平台(unity editor, exe, Android, iOS, WP...)
