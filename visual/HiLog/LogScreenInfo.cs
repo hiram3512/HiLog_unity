@@ -7,7 +7,7 @@ using System;
 using UnityEngine;
 namespace HiLogHelper
 {
-    public class LogScreenInfo
+    internal class LogScreenInfo
     {
         public string Condition { get; private set; }
         public string StackTrace { get; private set; }
@@ -15,7 +15,7 @@ namespace HiLogHelper
 
         public LogScreenInfo(string condition, string stackTrace, LogType type)
         {
-            this.Condition = LogTime.GetTime() + condition;
+            this.Condition = LogTime.GetTimeFormat() + condition;
             this.StackTrace = stackTrace;
             this.Type = type;
         }

@@ -7,4 +7,3 @@ D:\MyGit\github\HiLog_unity\visual\HiLog\obj\Debug\HiLog.dll
 D:\MyGit\github\HiLog_unity\visual\HiLog\obj\Debug\HiLog.pdb
 D:\MyGit\github\HiLog_unity\HiLog\HiLog.dll
 D:\MyGit\github\HiLog_unity\HiLog\HiLog.pdb
-D:\MyGit\github\HiLog_unity\visual\HiLog\obj\Debug\HiLog.csprojAssemblyReference.cache

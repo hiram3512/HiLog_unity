@@ -10,7 +10,7 @@ namespace HiLogHelper
 {
     internal static class LogTime
     {
-        internal static string GetTime()
+        internal static string GetTimeFormat()
         {
             var str = DateTime.Now.ToString("yyyy.MM.dd HH:mm:ss");
             return string.Format("[{0}]", str);
@@ -18,8 +18,7 @@ namespace HiLogHelper
 
         internal static string GetDate()
         {
-            var str = DateTime.Now.ToString("yyyyMMdd");
-            return string.Format("[{0}]", str);
+            return DateTime.Now.ToString("yyyyMMdd");
         }
     }
 }

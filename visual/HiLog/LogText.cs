@@ -13,7 +13,7 @@ namespace HiLogHelper
     {
         private string HiLogFilePath
         {
-            get { return HiLog.HiLogTextFolder + "/HiLog" + LogTime.GetDate() + ".txt"; }
+            get { return HiLog.HiLogTextFolder + "/HiLog_" + LogTime.GetDate() + ".txt"; }
         }
 
         public LogText()
@@ -31,7 +31,7 @@ namespace HiLogHelper
         public void Text(string condition, string stackTrace, LogType type)
         {
             var typeInfo = string.Format("[{0}]", type.ToString());
-            var log = typeInfo + LogTime.GetTime() + condition;
+            var log = typeInfo + LogTime.GetTimeFormat() + condition;
             var sw = File.AppendText(HiLogFilePath);
             sw.WriteLine(log + "\n" + stackTrace);
             sw.Close();
