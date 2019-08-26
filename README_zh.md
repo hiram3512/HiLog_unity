@@ -5,7 +5,7 @@
 ### 如何使用
 
 ```csharp
-HiLog.SetOn(true);
+HiLog.SetOn();
 ```
 HiLog对原有项目没有任何影响，只需要添加一句逻辑便可以开启HiLog的所有功能。
 
