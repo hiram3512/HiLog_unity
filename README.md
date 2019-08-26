@@ -8,7 +8,7 @@
 ### How to use
 
 ```csharp
-HiLog.SetOn(true);
+HiLog.SetOn();
 ```
 HiLog have nothing intrusion with your project, and only add one line code then all functionality execute.
 
