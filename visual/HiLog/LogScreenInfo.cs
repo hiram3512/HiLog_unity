@@ -3,8 +3,9 @@
  * Support: hiramtan@live.com    
  *******************************************************************/
 
+using System;
 using UnityEngine;
-namespace UnityLogHelper
+namespace HiLogHelper
 {
     public class LogScreenInfo
     {
@@ -14,7 +15,7 @@ namespace UnityLogHelper
 
         public LogScreenInfo(string condition, string stackTrace, LogType type)
         {
-            this.Condition = condition;
+            this.Condition = LogTime.GetTime() + condition;
             this.StackTrace = stackTrace;
             this.Type = type;
         }

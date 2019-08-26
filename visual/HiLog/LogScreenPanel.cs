@@ -3,14 +3,20 @@
  * Support: hiramtan@live.com    
  *******************************************************************/
 
+using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-namespace UnityLogHelper
+namespace HiLogHelper
 {
     internal partial class LogScreen
     {
+        /// <summary>
+        /// When clear button click
+        /// </summary>
+        public static Action OnClearButtonClick;
+
         private bool _isLogOn = true;
         private bool _isWarnningOn = true;
         private bool _isErrorOn = true;
@@ -36,9 +42,10 @@ namespace UnityLogHelper
             {
                 _currentSelectedLogScreenInfo = null;
                 _logInfos.Clear();
-                if (File.Exists(HiLog.HiLogTextPath))
+
+                if (OnClearButtonClick != null)
                 {
-                    File.WriteAllText(HiLog.HiLogTextPath, string.Empty);
+                    OnClearButtonClick.Invoke();
                 }
             }
             if (GUI.Button(new Rect(Screen.width * (1 - _buttonWidth), 0, Screen.width * _buttonWidth, Screen.height * _buttonHeight), "Close", GetGUISkin(GUI.skin.button, Color.white, TextAnchor.MiddleCenter)))

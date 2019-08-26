@@ -1,11 +1,12 @@
 ﻿/*******************************************************************
  * Documents: https://github.com/hiramtan/HiLog_unity
+ * 
  * Support: hiramtan@live.com    
  *******************************************************************/
 
 using UnityEngine;
 
-namespace UnityLogHelper
+namespace HiLogHelper
 {
     internal partial class LogScreen : MonoBehaviour
     {

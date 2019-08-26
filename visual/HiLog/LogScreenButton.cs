@@ -5,7 +5,7 @@
 
 using UnityEngine;
 
-namespace UnityLogHelper
+namespace HiLogHelper
 {
     internal partial class LogScreen
     {

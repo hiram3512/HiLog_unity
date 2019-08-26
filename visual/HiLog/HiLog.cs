@@ -1,39 +1,41 @@
 ﻿/*******************************************************************
  * Documents: https://github.com/hiramtan/HiLog_unity
+ * 
  * Support: hiramtan@live.com    
  *******************************************************************/
 
-using System;
-using System.IO;
-using UnityLogHelper;
+using HiLogHelper;
 using UnityEngine;
 
 public static class HiLog
 {
     /// <summary>
-    /// Instance of view
-    /// </summary>
-    private static LogScreen _logScreen;
-
-    /// <summary>
     /// Set screen log's font size
     /// </summary>
     public static int FontSizeOnScreen = (int)(UnityEngine.Screen.width * 0.02f);
 
-    public static string HiLogTextPath = Application.persistentDataPath + "/HiLog.txt";
+    /// <summary>
+    /// Set log's foler
+    /// </summary>
+    public static string HiLogTextFolder = Application.persistentDataPath;
+
+    /// <summary>
+    /// Instance of view
+    /// </summary>
+    private static LogScreen _logScreen;
+
+    private static LogText _logText;
 
     /// <summary>
     /// Set if log is on
     /// </summary>
     /// <param name="isOn"></param>
-    public static void SetOn(bool isOn)
+    public static void SetOn()
     {
-        if (isOn)
-        {
-            Debug.Log(string.Format("HiLog's file is here[{0}]", Application.persistentDataPath));
-            _logScreen = new GameObject("HiLog").AddComponent<LogScreen>();
-            Application.logMessageReceivedThreaded += LogCallback;
-        }
+        Debug.LogFormat("HiLog's file is here[{0}]", HiLogTextFolder);
+        _logScreen = new GameObject("HiLog").AddComponent<LogScreen>();
+        _logText = new LogText();
+        Application.logMessageReceivedThreaded += LogCallback;
     }
 
 
@@ -43,27 +45,12 @@ public static class HiLog
         Screen(condition, stackTrace, type);
     }
 
-    private static string GetTime()
-    {
-        var time = DateTime.Now;
-        return time.ToString("yyyy.MM.dd HH:mm:ss");
-    }
-
-    /// <summary>
-    /// Write log in text
-    /// For editor path is dataPath, and for other platform path is persistentDataPath
-    /// </summary>
-    /// <param name="condition"></param>
-    /// <param name="stackTrace"></param>
-    /// <param name="type"></param>
     private static void Text(string condition, string stackTrace, LogType type)
     {
-        var typeInfo = string.Format("[{0}]", type.ToString());
-        var timeInfo = string.Format("[{0}]", GetTime());
-        var log = typeInfo + timeInfo + condition;
-        var sw = File.AppendText(HiLogTextPath);
-        sw.WriteLine(log + "\n" + stackTrace);
-        sw.Close();
+        if (_logText != null)
+        {
+            _logText.Text(condition, stackTrace, type);
+        }
     }
 
     /// <summary>
@@ -76,8 +63,7 @@ public static class HiLog
     {
         if (_logScreen != null)
         {
-            var timeInfo = string.Format("[{0}]", GetTime());
-            _logScreen.NewLog(new LogScreenInfo(timeInfo + condition, stackTrace, type));
+            _logScreen.NewLog(new LogScreenInfo(condition, stackTrace, type));
         }
     }
 }
