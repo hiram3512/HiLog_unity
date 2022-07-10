@@ -1,5 +1,11 @@
-/unity/unity.csproj
-/unity/unity.sln
-Temp
-Library
+obj
 .vs
+Library
+Logs
+Packages
+UserSettings
+/example/Assembly-CSharp.csproj
+/example/example.sln
+Temp
+/example/.vsconfig
+HiLog

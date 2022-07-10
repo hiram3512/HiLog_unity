@@ -1,73 +1,55 @@
 # HiLog_unity
 ----------------------
-![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)   [![GitHub release](https://img.shields.io/github/release/hiramtan/HiLog_unity.svg)](https://github.com/hiramtan/HiLog_unity/releases)
+![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)   [![GitHub release](https://img.shields.io/github/release/hiramtan/HiLog_unity.svg)](https://github.com/hiramtan/HiLog_unity/releases)  [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiLog_unity/releases)
 
 ### 如何使用
 
 ```csharp
-HiLog.SetOn();
-```
-HiLog对原有项目没有任何影响，只需要添加一句逻辑便可以开启HiLog的所有功能。
-
-所有的功能仅在一个dll文件中，下载后复制到自己的项目中即可 [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiLog_unity/releases)
-
-------------
-
-### 功能说明
->- 支持多平台(unity editor, exe, Android, iOS, WP...)
->- 日志添加时间戳，虽然新版unity日志具有时间戳功能，但是只是针对编辑器，HiLog所有日志全部添加时间戳功能。
->- 记录日志到text文件中（文件路径在persistentdatapath）
->- 是否将日志打印到屏幕(即便不连接Android studio,xcode也可以查看日志)
->- 屏幕显示堆栈信息或记录堆栈信息到text.
->- 插件小巧,所有功能都在一个dll中,可以直接复制到工程使用,与原有项目无耦合.
-
-### 截图说明
-![ezgif-5-9829fc97d6](others/ezgif-5-9829fc97d6.gif)
-![2017-12-18_223835](others/2017-12-18_223835.png)
-![Image15](others/Image15.png)
-![Image17](others/Image17.png)
-![Image18](others/Image18.png)
-
--------------------
-
-### 详情
-
-如果在unity5.x和之前的版本中使用,从此处下载：[https://github.com/hiramtan/HiLog_unity/tree/Branch_2.4.1](https://github.com/hiramtan/HiLog_unity/tree/Branch_2.4.1)
-
-将会记录日志和堆栈信息到text,默认路径是Application.persistentDataPath.
-
-打印日志到屏幕:将会显示一个按钮,可以拖拽到任何地方(不遮挡你的游戏按钮的地方)
-
-当点击这个按钮,将会弹出一个面板展示日志和堆栈.
-
->- 点击每一条日志可以显示其堆栈信息.
->- 勾选 log 或 warnning 或 error 只显示此类型的日志.
->- 清空屏幕上的所有日志.
->- 关闭日志展示面板
->- 设置屏幕上字体大小.
-
-Example：
-```csharp
 public class Example : MonoBehaviour
 {
-    // Use this for initialization
     void Start()
     {
-        HiLog.SetOn(true);
-        Log();
+        HiLog.Main.EnableLogSave(); //If you want save log file
+        HiLog.Main.EnableLogScreen(); //If you want show log on screen
     }
-
-    void Log()
+    int numb = 0;
+    private void Update()
     {
-        Debug.Log("this is from start");
-        Debug.LogWarning(123);
-        Debug.LogError(456);
+        numb++;
+        Debug.Log(numb);
+        Debug.Log(numb);
+        Debug.Log(numb);
+        Debug.Log(numb);
+        Debug.Log(numb);
+        Debug.LogWarning(numb);
+        Debug.LogError(numb);
     }
 }
 ```
 
+### 特点
+- HiLog 不会干扰原有的逻辑,不用修改之前的逻辑,日志输出还是使用引擎接口,只需要调用一下初始化接口.
+- HiLog 没有任何资源,所有的UI界面用逻辑实现,因此不会增加包体大小,也不用操心资源是否正常打包等.
+- 所有的功能在一个dll中,下载拷贝到项目中就可以使用. 
 
+### 功能说明
+- 支持多平台(unity editor, exe, Android, iOS, WP...)
+- 日志添加时间戳，虽然新版unity日志具有时间戳功能，但是只是针对编辑器，HiLog所有日志全部添加时间戳功能。
+- 记录日志到text文件中(编辑器在项目目录下/移动端文件路径在persistentdatapath)
+- 是否将日志打印到屏幕(即便不连接Android studio,xcode也可以查看日志)
+- 屏幕显示堆栈信息或记录堆栈信息到text.
+- 插件小巧,与原有项目无耦合.
 
+----------------------------
+
+### 截图
+![ezgif-5-9829fc97d6](others/ezgif-5-9829fc97d6.gif)
+
+![Image15](others/Image15.png)
+
+![Image18](others/Image18.png)
+
+-------------------
 
 点击链接加入QQ群【83596104】：https://jq.qq.com/?_wv=1027&k=5l6rZEr
 

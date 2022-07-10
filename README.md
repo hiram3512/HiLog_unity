@@ -1,72 +1,58 @@
 # HiLog_unity
 ----------------------
 
-![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)   [![GitHub release](https://img.shields.io/github/release/hiramtan/HiLog_unity.svg)](https://github.com/hiramtan/HiLog_unity/releases)
+![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)   [![GitHub release](https://img.shields.io/github/release/hiramtan/HiLog_unity.svg)](https://github.com/hiramtan/HiLog_unity/releases)  [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiLog_unity/releases)
 
 [中文说明](https://github.com/hiramtan/HiLog_unity/blob/master/README_zh.md)
 
 ### How to use
 
 ```csharp
-HiLog.SetOn();
-```
-HiLog have nothing intrusion with your project, and only add one line code then all functionality execute.
-
-All functions is centralized in one dll file, just download and copy into your project. [![Github Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/hiramtan/HiLog_unity/releases)
-
-------------
-### Functionality
->- Support all platforms(unity editor, exe, Android, iOS, WP...)
->- Add timestamp with user's log(despite new version of unity have this function but it can only in editor platform)
->- Write logs into text file.（path is: application.persistentdatapath）
->- Display logs on screen(can quickly check logs and event have not connect Android studio,xcode)
->- Display stacks and write stacks into text.
->- Only one file and have no relevance with your project
-
-### Screenshot
-![ezgif-5-9829fc97d6](others/ezgif-5-9829fc97d6.gif)
-![2017-12-18_223835](others/2017-12-18_223835.png)
-![Image15](others/Image15.png)
-![Image17](others/Image17.png)
-![Image18](others/Image18.png)
-
--------------------
-
-### Details
-
-If you use unity5.x and old version you can download from here[https://github.com/hiramtan/HiLog_unity/tree/Branch_2.4.1](https://github.com/hiramtan/HiLog_unity/tree/Branch_2.4.1)
-
-Will write logs and stacks into text and path is Application.persistentDataPath.
-
-Display logs on screen, will draw a button and you can drag this button to any position on your screen(don't cover your game)
-When click this button then popup a panel to display logs and stacks
-
->- Click every log will show it's stacks.
->- Toggle log or warnning or error can only display this type of logs.
->- Clear all logs on screed.
->- Close logs panel
->- Set font size on screen.
-
-Example：
-```csharp
 public class Example : MonoBehaviour
 {
-    // Use this for initialization
     void Start()
     {
-        HiLog.SetOn(true);
-        Log();
+        HiLog.Main.EnableLogSave(); //If you want to save log file
+        HiLog.Main.EnableLogScreen(); //If you want to show log on screen
     }
-
-    void Log()
+    int numb = 0;
+    private void Update()
     {
-        Debug.Log("this is from start");
-        Debug.LogWarning(456);
-        Debug.LogError(789);
+        numb++;
+        Debug.Log(numb);
+        Debug.Log(numb);
+        Debug.Log(numb);
+        Debug.Log(numb);
+        Debug.Log(numb);
+        Debug.LogWarning(numb);
+        Debug.LogError(numb);
     }
 }
 ```
 
+### Feature
+- HiLog have nothing intrusion with your project, you don't have to modify old logic, of cource still use unity engine interface to output log, just call enable interface at start.
+- HiLog have nothing assets, all UI made by logic, these means won't increase size of your app, or don't need think about if the assets have be packaged.
+- All functions is centralized in one dll file, just download and copy into your project. 
+
+### Functionality
+- Support all platforms(unity editor, exe, Android, iOS, WP...)
+- Add timestamp with user's log(despite new version of unity have this function but it can only in editor platform)
+- Write logs into text file.(editor path is in project/mobile path is: application.persistentdatapath)
+- Display logs on screen(can quickly check logs and event have not connect Android studio,xcode)
+- Display stacks and write stacks into text.
+- Only one file and have no relevance with your project
+
+----------------------------
+
+### Screenshot
+![ezgif-5-9829fc97d6](others/ezgif-5-9829fc97d6.gif)
+
+![Image15](others/Image15.png)
+
+![Image18](others/Image18.png)
+
+-------------------
 
 support: hiramtan@live.com
 
