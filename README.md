@@ -47,7 +47,7 @@ public class Example : MonoBehaviour
 ### Functionality
 - Support all platforms(unity editor, exe, Android, iOS, WP...)
 - Add timestamp with user's log(despite new version of unity have this function but it can only in editor platform)
-- Write logs into text file.(editor path is in project/mobile path is: application.persistentdatapath)
+- Write logs into text file.(editor path is in project,mobile path is: application.persistentdatapath)
 - Display logs on screen(can quickly check logs and event have not connect Android studio,xcode)
 - Display stacks and write stacks into text.
 - Only one file and have no relevance with your project
