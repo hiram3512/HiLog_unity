@@ -44,7 +44,7 @@ public class Example : MonoBehaviour
 ### 功能说明
 - 支持多平台(unity editor, exe, Android, iOS, WP...)
 - 日志添加时间戳，虽然新版unity日志具有时间戳功能，但是只是针对编辑器，HiLog所有日志全部添加时间戳功能。
-- 记录日志到text文件中(编辑器在项目目录下/移动端文件路径在persistentdatapath)
+- 记录日志到text文件中(编辑器在项目目录下,移动端文件路径在persistentdatapath)
 - 是否将日志打印到屏幕(即便不连接Android studio,xcode也可以查看日志)
 - 屏幕显示堆栈信息或记录堆栈信息到text.
 - 插件小巧,与原有项目无耦合.
